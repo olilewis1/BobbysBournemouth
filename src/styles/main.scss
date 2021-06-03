@@ -1,2 +1,18 @@
 @import '~bulma/bulma.sass';
+@import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 
+
+.navbar { 
+  font-family: 'Odibee Sans', cursive;
+  font-size: 30px;
+  color: rgba(108, 122, 137, 1)
+  ;
+
+}
+.legend { 
+  display: none;
+}
+
+.image-height {
+  max-height: 100vh;
+}
