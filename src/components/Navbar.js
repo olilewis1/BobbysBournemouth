@@ -23,19 +23,19 @@ const Navbar = () => {
             <img src={bobbysButton} alt="" width="112" height="28" className="pt-2" />
           </Link>
 
-          <a role="button" className={`navbar-burger ${addClass}`} aria-label="menu" aria-expanded="false" onClick={handleToggle}>
+          <a role="button" className={`navbar-burger mt-5 ${addClass}`} aria-label="menu" aria-expanded="false" onClick={handleToggle}>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
           </a>
         </div>
-        <div id="navbarBasicExample" className="navbar-menu">
-          <div className="navbar-center ">
+        <div id="navbarBasicExample" className={`navbar-menu ${addClass}`}>
+          <div className="navbar-end ">
             <a className="navbar-item">
               Home
             </a>
 
-            <a className="navbar-item">
+            <a className='navbar-item'>
               Documentation
             </a>
 
