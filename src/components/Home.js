@@ -1,6 +1,6 @@
 import React from 'react'
 // import bobbysPicOld from '../assets/Screenshot 2021-06-03 at 19.24.38.png'
-import stuartSemple from '../assets/close up front v8.jpg'
+import stuartSemple from '../assets/close up front v8-min2.jpg'
 // import { Carousel } from 'react-responsive-carousel'
 const Home = () => {
   // const [intervalz, setIntervalz] = useState(3000) //initial state here represents the interval for first image.
@@ -34,7 +34,9 @@ const Home = () => {
         </h1>
       </div>
       {/* </Carousel> */}
+
     </section>
+
   )
 }
 

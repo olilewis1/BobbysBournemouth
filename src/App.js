@@ -5,18 +5,20 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
 import OurStory from './components/OurStory'
+import Footer from './components/Footer'
 function App() {
   return (
     <BrowserRouter>
-      <Navbar /> 
+      <Navbar />
       <Switch>
         <Route exact path="/">
           <Home />
         </Route>
-        <Route exact path = "/ourstory"> 
+        <Route exact path="/ourstory">
           <OurStory />
         </Route>
       </Switch>
+      <Footer />
     </BrowserRouter>
   )
 }

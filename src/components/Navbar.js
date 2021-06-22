@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 // import { Icon } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 import facebook from '../assets/b763699fd1fa3bfb374442593ae642e1.png'
-import bobbysButton from '../assets/B&CO EST 1915 ORANGE.png'
+import bobbysButton from '../assets/B&Co EST 1915-01.png'
 import instagram from '../assets/instagram_icon_138461.png'
 const Navbar = () => {
 
@@ -15,13 +15,21 @@ const Navbar = () => {
     }
   }
 
+  // const [addModal, setAddModal] = useState('')
+
+  // const handleModal = () => {
+  //   if (addModal === '')
+  //     setAddModal('is-active')
+  //   if (addModal === 'is-active') {
+  //     setAddModal('')
+  //   }
+  // }
+
   return (
     <>
       <nav className="navbar navvy" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
-
           <img src={bobbysButton} alt="" width="140" height="28" className="pt-2" />
-
           <a role="button" className={`navbar-burger mt-5 ${addClass}`} aria-label="menu" aria-expanded="false" onClick={handleToggle}>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -35,18 +43,14 @@ const Navbar = () => {
                 Home
               </a>
             </Link>
-
             <Link to="/ourstory" className=" navbar-item">
               <a className="has-text-black">
-                Our Story
+                The Story
               </a>
             </Link>
-            <Link to="/" className=" navbar-item">
-              <a className="has-text-black">
-                Careers
-              </a>
-            </Link>
-
+            <a className="has-text-black navbar-item"  >
+              Careers
+            </a>
           </div>
           <div className="navbar-end">
             <div className="navbar-item">
@@ -57,6 +61,13 @@ const Navbar = () => {
             </div>
           </div>
         </div>
+        {/* <div className={`modal ${addModal}`}>
+          <div className="modal-background"></div>
+          <div className="modal-content">
+            <p> Coming soon.</p>
+          </div>
+          <button className="modal-close is-large" aria-label="close" onClick={handleModal}></button>
+        </div> */}
       </nav >
     </>
   )
