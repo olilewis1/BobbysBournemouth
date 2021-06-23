@@ -49,14 +49,14 @@ const Careers = () => {
           <h4 className="is-size-4-touch">
             Application Instructions:
           </h4>
-          <p className="m-6 is-size-6-touch">
+          <div className="m-6 is-size-6-touch">
             Please make your application with a covering email to <a href="mailto: careers@bobbysbournemouth.com" className="is-size-6-touch">careers@bobbysbournemouth.com</a>. With your application please also specify
             the role you are applying to, availability of hours you can work, your flexibility of when you can work, and whether you are eligible to
             work in the UK.
             <p className="mt-3 is-size-6-touch">
               All roles are based at Bobby’s, The Square, Bourne Avenue, Bournemouth, BH2 5LY
             </p>
-          </p>
+          </div>
           <section className="beauty">
             <h2 className="mt-6 title">
               Beauty Hall
@@ -64,23 +64,23 @@ const Careers = () => {
             <h4 className="title size-job is-size-4-touch">
               Team Leader – Full time
             </h4>
-            <p className="m-6 is-size-6-touch ">
+            <div className="m-6 is-size-6-touch ">
               Your role is to lead the Bobby’s Beauty team in an exciting new beauty hall venture at the Iconic Bobby’s building in
               Bournemouth town centre. Fundamentally, you will drive sales and profit through effective leadership of your sales team
               and collaboratively work alongside representatives from the established beauty brands. The effective operation of the
               business will also be your priority and will require you to support the General Management and Merchandiser manage the
               stock flow cycle.
               <div className="mx-6">
-                <p className="mt-6 is-size-6-touch ">
+                <div className="mt-6 is-size-6-touch ">
                   Full Job Description: <a href={beautyTeamleader} className="is-size-6-touch" download>DOWNLOAD PDF </a>
 
-                </p>
+                </div>
               </div>
-            </p>
+            </div>
             <h4 className="title size-job mt-6 is-size-4-touch mx-6">
               Stock Merchandiser – Full time
             </h4>
-            <p className="m-6 is-size-6-touch">
+            <div className="m-6 is-size-6-touch">
               Your role is to support the Bobby’s Beauty team in an exciting new beauty hall venture at the Iconic Bobby’s building in
               Bournemouth town centre. Fundamentally, you will control stock through inventory management, handling procedures,
               deliveries, and replenishment, whilst also playing a supporting role in customer service and the daily operation of the shop
@@ -91,11 +91,11 @@ const Careers = () => {
 
                 </p>
               </div>
-            </p>
+            </div>
             <h4 className="title size-job mt-6 is-size-4-touch mx-6">
               Senior Associate – Full time
             </h4>
-            <p className="m-6 is-size-6-touch">
+            <div className="m-6 is-size-6-touch">
               Your role is to support the Bobby’s Beauty team in an exciting new beauty hall venture at the Iconic Bobby’s building in
               Bournemouth town centre. Fundamentally, you will provide first class customer service through utilising your extensive
               knowledge of beauty products to drive sales and profit. As an experienced retailer you will play a supporting role in the
@@ -106,11 +106,11 @@ const Careers = () => {
 
                 </p>
               </div>
-            </p>
+            </div>
             <h4 className="title size-job mt-6 is-size-4-touch mx-6">
               Associate – Full time, part time and weekend hours available
             </h4>
-            <p className="m-6 is-size-6-touch">
+            <div className="m-6 is-size-6-touch">
               Your role is to support the Bobby’s Beauty team in an exciting new beauty hall venture at the Iconic Bobby’s building in
               Bournemouth town centre. Fundamentally, you will provide first class customer service through utilising your extensive
               knowledge of beauty products to drive sales and profit.
@@ -120,7 +120,7 @@ const Careers = () => {
 
                 </p>
               </div>
-            </p>
+            </div>
           </section>
           <section className="Ice-cream">
             <h2 className="mt-6 title">
@@ -129,7 +129,7 @@ const Careers = () => {
             <h4 className="title size-job is-size-4-touch mx-6">
               Team Leader – Full time
             </h4>
-            <p className="m-6 is-size-6-touch">
+            <div className="m-6 is-size-6-touch">
               Your role is to lead the Bobby’s Ice Cream Parlour team in an exciting new food and beverage venture at the Iconic Bobby’s
               building in Bournemouth town centre. Fundamentally, your role is to drive sales and profit through effective leadership of
               your General Assistants to provide exceptional customer service whilst maintaining excellent product quality, displays and
@@ -140,11 +140,11 @@ const Careers = () => {
                   Full Job Description: <a href={iceCreamTeamLeader} className="is-size-6-touch" download>DOWNLOAD PDF </a>
                 </p>
               </div>
-            </p>
+            </div>
             <h4 className="title size-job mt-6 is-size-4-touch mx-6">
               General Assistant – Full time, part time and week hours available
             </h4>
-            <p className="m-6 is-size-6-touch">
+            <div className="m-6 is-size-6-touch">
               Your role is to support the Bobby’s Ice Cream Parlour team in an exciting new food and beverage venture at the Iconic
               Bobby’s building in Bournemouth town centre. Fundamentally, your role is to provide exceptional customer service, maintain
               excellent product quality, displays, and hygiene standards.
@@ -154,7 +154,7 @@ const Careers = () => {
 
                 </p>
               </div>
-            </p>
+            </div>
           </section>
           <section className="Drool">
             <h2 className="mt-6 title">
@@ -163,7 +163,7 @@ const Careers = () => {
             <h4 className="title size-job is-size-4-touch mx-6">
               Team Leader – Full time
             </h4>
-            <p className="m-6 is-size-6-touch">
+            <div className="m-6 is-size-6-touch">
               You will keep Drool running like clockwork. From motivating the team and delegating tasks, to rolling up your sleeves and
               getting stuck in ensuring the tails keep wagging. You will be key in ensuring a dog friendly and unique atmosphere, help satisfy
               customers and be the crucial difference in ensuring the Drool experience is fun and unique for both humans and dogs. The
@@ -175,11 +175,11 @@ const Careers = () => {
 
                 </p>
               </div>
-            </p>
+            </div>
             <h4 className="title size-job mt-6 is-size-4-touch mx-6">
               General Assistant – Full time, part time and week hours available
             </h4>
-            <p className="m-6 is-size-6-touch">
+            <div className="m-6 is-size-6-touch">
               You will assist in keeping Drool running like clockwork and keeping the tails wagging. Holding a customer facing position you
               will welcome dogs and their humans into Drool and assist both in their journey from entry to Lick ‘n’ Mix, the tuck shop,
               and finally the pay desk. You will be key in ensuring a dog friendly and unique atmosphere, help satisfy customers and be
@@ -191,7 +191,7 @@ const Careers = () => {
 
                 </p>
               </div>
-            </p>
+            </div>
           </section>
         </section>
       </div>

@@ -30,28 +30,28 @@ const Navbar = () => {
       <nav className="navbar navvy" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <img src={bobbysButton} alt="" width="140" height="28" className="pt-2" />
-          <a role="button" className={`navbar-burger mt-5 ${addClass}`} aria-label="menu" aria-expanded="false" onClick={handleToggle}>
+          <div role="button" className={`navbar-burger mt-5 ${addClass}`} aria-label="menu" aria-expanded="false" onClick={handleToggle}>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
-          </a>
+          </div>
         </div>
         <div id="navbarBasicExample" className={`navbar-menu ${addClass}`}>
           <div className="navbar-end ">
             <Link to="/" className=" navbar-item">
-              <a className="has-text-black">
+              <p className="has-text-black">
                 Home
-              </a>
+              </p>
             </Link>
             <Link to="/ourstory" className=" navbar-item">
-              <a className="has-text-black">
+              <p className="has-text-black">
                 The Story
-              </a>
+              </p>
             </Link>
             <Link to="/careers" className="navbar-item">
-              <a className="has-text-black " >
+              <p className="has-text-black " >
                 Careers
-              </a>
+              </p>
             </Link>
           </div>
           <div className="navbar-end">
