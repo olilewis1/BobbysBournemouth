@@ -6,6 +6,8 @@ import Home from './components/Home'
 import Navbar from './components/Navbar'
 import OurStory from './components/OurStory'
 import Footer from './components/Footer'
+import Careers from './components/Careers'
+
 function App() {
   return (
     <BrowserRouter>
@@ -16,6 +18,9 @@ function App() {
         </Route>
         <Route exact path="/ourstory">
           <OurStory />
+        </Route>
+        <Route exact path='/careers'>
+          <Careers />
         </Route>
       </Switch>
       <Footer />

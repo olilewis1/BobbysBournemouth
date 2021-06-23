@@ -48,13 +48,16 @@ const Navbar = () => {
                 The Story
               </a>
             </Link>
-            <a className="has-text-black navbar-item"  >
-              Careers
-            </a>
+            <Link to="/careers" className="navbar-item">
+              <a className="has-text-black " >
+                Careers
+              </a>
+            </Link>
           </div>
           <div className="navbar-end">
             <div className="navbar-item">
               <div className="buttons">
+                {/* <Link to={{ pathname: 'https://www.facebook.com/bobbysbournemouth/' }} > <img className="image-buttons" src={facebook} alt="image" /></Link> */}
                 <a href="https://www.facebook.com/bobbysbournemouth/" className="navbar-item"><img className="image-buttons" src={facebook} alt="image" /></a>
                 <a href="https://www.instagram.com/bobbysbournemouth/" className="navbar-item"><img className="image-buttons" src={instagram} alt="image" /></a>
               </div>

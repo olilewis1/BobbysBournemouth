@@ -30,8 +30,6 @@ const Home = () => {
       </div>
       <div className="columns is-vcentered has-text-centered	is-hidden-tablet	 ">
         {/* <div className="column"></div> */}<div className=""> </div>
-        <h1 className="center column ml-2 is-size-6-mobile 	">Coming Soon.
-        </h1>
       </div>
       {/* </Carousel> */}
 

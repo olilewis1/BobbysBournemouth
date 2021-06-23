@@ -8,10 +8,9 @@ const Footer = () => {
         <p className="is-justify-content-center is-size-7-touch">
           <img className=" " src={bobbysButton} alt="bobbys" width="120" height="28" />
         </p>
-        <p className="is-size-6 is-size-7-touch">
-          For any enquries please email queries@bobbys.com.
-        </p>
-
+        <div>
+          <a href="mailto: enquiries@bobbysbournemouth.com" className="is-size-5 sis-size-6-touch">enquries@bobbysbournemouth.com</a>
+        </div>
       </div>
     </footer>
 
