@@ -29,7 +29,9 @@ const Navbar = () => {
     <>
       <nav className="navbar navvy" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
-          <img src={bobbysButton} alt="" width="140" height="28" className="pt-2" />
+          <div className="navbar-item">
+            <img src={bobbysButton} alt="" width="140" height="28" className="pt-2" />
+          </div>
           <div role="button" className={`navbar-burger mt-5 ${addClass}`} aria-label="menu" aria-expanded="false" onClick={handleToggle}>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
