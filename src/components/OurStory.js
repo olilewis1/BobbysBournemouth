@@ -1,8 +1,8 @@
 import React from 'react'
 
-import pictureOne from '../assets/ILLUSTRATION POST 1.JPG'
-import pictureTwo from '../assets/ILLUSTRATION POST 2.JPG'
-import pictureThree from '../assets/ILLUSTRATION POST 3.JPG'
+import pictureOne from '../assets/ILLUSTRATION POST 1-min.JPG'
+import pictureTwo from '../assets/ILLUSTRATION POST 2-min.JPG'
+import pictureThree from '../assets/ILLUSTRATION POST 3-min.JPG'
 const OurStory = () => {
   return (
     <div className="our-story">
