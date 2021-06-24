@@ -9,7 +9,7 @@ const Footer = () => {
           <img className=" " src={bobbysButton} alt="bobbys" width="120" height="28" />
         </p>
         <div>
-          <a href="mailto: enquiries@bobbysbournemouth.com" className="is-size-5 sis-size-6-touch">enquries@bobbysbournemouth.com</a>
+          <a href="mailto: enquiries@bobbysbournemouth.com" className="is-size-5 sis-size-6-touch">enquiries@bobbysbournemouth.com</a>
         </div>
       </div>
     </footer>
