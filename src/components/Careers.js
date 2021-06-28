@@ -11,7 +11,6 @@ import beautySeniorAssociate from '../assets/rewebpage/Beauty Senior Associate.p
 import stockMerchandiser from '../assets/rewebpage/Beauty Stock Merchandiser.pdf'
 import beautyTeamleader from '../assets/rewebpage/Beauty Team Leader.pdf'
 import droolGeneralAssissant from '../assets/rewebpage/Drool General Assistant.pdf'
-import droolTeamLeader from '../assets/rewebpage/Drool Team Leader.pdf'
 import iceCreamGeneralAssisstant from '../assets/rewebpage/Ice Cream Parlour General Assistant.pdf'
 import iceCreamTeamLeader from '../assets/rewebpage/Ice Cream Parlour Team Leader.pdf'
 
@@ -160,22 +159,6 @@ const Careers = () => {
             <h2 className="mt-6 title">
               Drool
             </h2>
-            <h4 className="title size-job is-size-4-touch mx-6">
-              Team Leader – Full time
-            </h4>
-            <div className="m-6 is-size-6-touch">
-              You will keep Drool running like clockwork. From motivating the team and delegating tasks, to rolling up your sleeves and
-              getting stuck in ensuring the tails keep wagging. You will be key in ensuring a dog friendly and unique atmosphere, help satisfy
-              customers and be the crucial difference in ensuring the Drool experience is fun and unique for both humans and dogs. The
-              daily operation will also be your responsibility including; ordering stock, staff schedules and ensuring cleanliness and excellent
-              hygiene standards. It is a chance to be part of something unique and the dream job for any dog lover.
-              <div className="mx-6">
-                <p className="mt-6 is-size-6-touch ">
-                  Full Job Description: <a href={droolTeamLeader} className="is-size-6-touch" download>DOWNLOAD PDF </a>
-
-                </p>
-              </div>
-            </div>
             <h4 className="title size-job mt-6 is-size-4-touch mx-6">
               General Assistant – Full time, part time and week hours available
             </h4>
