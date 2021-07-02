@@ -9,7 +9,7 @@ import pictureSix from '../assets/B&Co PHOTO COLLAGE/COLLAGE POST 6-min.JPG'
 import beautyAssociate from '../assets/rewebpage/Beauty Associate copy.pdf'
 import beautySeniorAssociate from '../assets/rewebpage/Beauty Senior Associate.pdf'
 import stockMerchandiser from '../assets/rewebpage/Beauty Stock Merchandiser.pdf'
-import beautyTeamleader from '../assets/rewebpage/Beauty Team Leader.pdf'
+// import beautyTeamleader from '../assets/rewebpage/Beauty Team Leader.pdf'
 import droolGeneralAssissant from '../assets/rewebpage/Drool General Assistant.pdf'
 import iceCreamGeneralAssisstant from '../assets/rewebpage/Ice Cream Parlour General Assistant.pdf'
 import iceCreamTeamLeader from '../assets/rewebpage/Ice Cream Parlour Team Leader.pdf'
@@ -60,22 +60,6 @@ const Careers = () => {
             <h2 className="mt-6 title">
               Beauty Hall
             </h2>
-            <h4 className="title size-job is-size-4-touch">
-              Team Leader – Full time
-            </h4>
-            <div className="m-6 is-size-6-touch ">
-              Your role is to lead the Bobby’s Beauty team in an exciting new beauty hall venture at the Iconic Bobby’s building in
-              Bournemouth town centre. Fundamentally, you will drive sales and profit through effective leadership of your sales team
-              and collaboratively work alongside representatives from the established beauty brands. The effective operation of the
-              business will also be your priority and will require you to support the General Management and Merchandiser manage the
-              stock flow cycle.
-              <div className="mx-6">
-                <div className="mt-6 is-size-6-touch ">
-                  Full Job Description: <a href={beautyTeamleader} className="is-size-6-touch" download>DOWNLOAD PDF </a>
-
-                </div>
-              </div>
-            </div>
             <h4 className="title size-job mt-6 is-size-4-touch mx-6">
               Stock Merchandiser – Full time
             </h4>
