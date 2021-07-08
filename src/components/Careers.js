@@ -49,7 +49,7 @@ const Careers = () => {
             Application Instructions:
           </h4>
           <div className="m-6 is-size-6-touch">
-            Please make your application with a covering email to <a href="mailto: careers@bobbysbournemouth.com" className="is-size-6-touch">careers@bobbysbournemouth.com</a>. With your application please also specify
+            Please make your application with a covering email and CV to <a href="mailto: careers@bobbysbournemouth.com" className="is-size-6-touch">careers@bobbysbournemouth.com</a>. With your application please also specify
             the role you are applying to, availability of hours you can work, your flexibility of when you can work, and whether you are eligible to
             work in the UK.
             <p className="mt-3 is-size-6-touch">
