@@ -7,6 +7,25 @@
   font-size  : 30px;
   color      : black;
 
+  .content-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .content .content-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
+  #overlay-content { 
+    opacity: 1;
+    background: none;
+  }
 }
 
 .legend {
@@ -31,5 +50,18 @@
 
   .image-buttons { 
     max-height: 3.75rem;
+  }
+}
+
+.homepage { 
+
+  #overlay-content { 
+    display: flex;
+    align-items: baseline;
+  }
+  #font-header { 
+    color: white;
+    font-weight: bold;
+    font-size: -webkit-xxx-large;
   }
 }

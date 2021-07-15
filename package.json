@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
     "bulma": "^0.9.2",
     "bulma-carousel": "^4.0.24",
     "eslint-plugin-jsx-a11y": "^6.2.3",
@@ -10,6 +12,8 @@
     "node": "^16.3.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-image-overlay": "^1.0.5",
+    "react-image-overlay-effect": "^1.0.0",
     "react-responsive-carousel": "^3.2.18",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",

@@ -7,7 +7,8 @@ import Navbar from './components/Navbar'
 import OurStory from './components/OurStory'
 import Footer from './components/Footer'
 import Careers from './components/Careers'
-
+import WhatsInside from './components/WhatsInside'
+import WhatsComing from './components/WhatsComing'
 function App() {
   return (
     <BrowserRouter>
@@ -21,6 +22,12 @@ function App() {
         </Route>
         <Route exact path='/careers'>
           <Careers />
+        </Route>
+        <Route exact path='/whatsinside'>
+          <WhatsInside />
+        </Route>
+        <Route exact path='/whatscoming'>
+          <WhatsComing />
         </Route>
       </Switch>
       <Footer />

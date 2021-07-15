@@ -1,4 +1,6 @@
 import React from 'react'
+import { ImageOverlay } from 'react-image-overlay-effect'
+
 // import bobbysPicOld from '../assets/Screenshot 2021-06-03 at 19.24.38.png'
 import stuartSemple from '../assets/close up front v8-min2.jpg'
 // import { Carousel } from 'react-responsive-carousel'
@@ -13,28 +15,46 @@ const Home = () => {
     // 
     //   <img src={bobbysPicOld} alt="" /> 
     // 
-    <section className="hero ">
-      {/* <Carousel
+    <>
+      <div className="homepage">
+        <section className="hero">
+          {/* <Carousel
         onChange={onChange}
         autoPlay
         interval={intervalz}
         infiniteLoop={false}> */}
-      {/* <div data-interval={3000}>
+          {/* <div data-interval={3000}>
           <img className="image-height" src={bobbysPicOld} alt="Coming Soon" />
           <p className="legend">Legend 1</p>
         </div> */}
 
-      <div data-interval={3000}>
-        <img className="image-height" src={stuartSemple} alt="Coming Soon" />
-        <p className="legend">Legend 3</p>
-      </div>
-      <div className="columns is-vcentered has-text-centered	is-hidden-tablet	 ">
-        {/* <div className="column"></div> */}<div className=""> </div>
-      </div>
-      {/* </Carousel> */}
 
-    </section>
+          <div data-interval={3000}>
+            {/* div style={{ display: "inline-block" } */}
+            < ImageOverlay
+              src={stuartSemple}
+              description={<p id="font-header" className="m-6 is-size-6-mobile has-text-centered ">Opening 7th August</p>} />
+            {/* <img className="image-height" src={stuartSemple} alt="Coming Soon" /> */}
 
+            {/* <div className="is-overlay is-flex is-justify-content-center"> <p className=" is-flex is-align-self-center"> ±HIiiiiiiiiii</p> </div> */}
+          </div>
+          <div className="columns is-vcentered has-text-centered	is-hidden-tablet	 ">
+            {/* <div className="column"></div> */}<div className=""> </div>
+          </div>
+          {/* </Carousel> */}
+
+        </section>
+
+        <div className="our-story">
+          <section className="container has-text-centered">
+            {/* <p className="m-6 is-size-6-touch">
+              The iconic Bobby’s is returning to Bournemouth on Saturday 7th August - we can’t wait to welcome you back and show you what we have in store!
+            </p> */}
+
+          </section>
+        </div>
+      </div>
+    </>
   )
 }
 
