@@ -12,7 +12,7 @@ import stockMerchandiser from '../assets/rewebpage/Beauty Stock Merchandiser.pdf
 // import beautyTeamleader from '../assets/rewebpage/Beauty Team Leader.pdf'
 import droolGeneralAssissant from '../assets/rewebpage/Drool General Assistant.pdf'
 import iceCreamGeneralAssisstant from '../assets/rewebpage/Ice Cream Parlour General Assistant.pdf'
-import iceCreamTeamLeader from '../assets/rewebpage/Ice Cream Parlour Team Leader.pdf'
+// import iceCreamTeamLeader from '../assets/rewebpage/Ice Cream Parlour Team Leader.pdf'
 
 
 const Careers = () => {
@@ -109,21 +109,7 @@ const Careers = () => {
             <h2 className="mt-6 title">
               Ice Cream Parlour
             </h2>
-            <h4 className="title size-job is-size-4-touch mx-6">
-              Team Leader – Full time
-            </h4>
-            <div className="m-6 is-size-6-touch">
-              Your role is to lead the Bobby’s Ice Cream Parlour team in an exciting new food and beverage venture at the Iconic Bobby’s
-              building in Bournemouth town centre. Fundamentally, your role is to drive sales and profit through effective leadership of
-              your General Assistants to provide exceptional customer service whilst maintaining excellent product quality, displays and
-              hygiene standards. The effective operation of the business will be your priority whilst also leading from the front in a
-              customer facing role.
-              <div className="mx-6">
-                <p className="mt-6 is-size-6-touch ">
-                  Full Job Description: <a href={iceCreamTeamLeader} className="is-size-6-touch" download>DOWNLOAD PDF </a>
-                </p>
-              </div>
-            </div>
+            
             <h4 className="title size-job mt-6 is-size-4-touch mx-6">
               General Assistant – Full time, part time and week hours available
             </h4>

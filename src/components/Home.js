@@ -33,7 +33,7 @@ const Home = () => {
             {/* div style={{ display: "inline-block" } */}
             < ImageOverlay
               src={stuartSemple}
-              description={<p id="font-header" className="m-6 is-size-6-mobile has-text-centered ">Opening 7th August</p>} />
+              description={<p id="font-header" className="m-6 is-size-6-mobile has-text-centered "></p>} />
             {/* <img className="image-height" src={stuartSemple} alt="Coming Soon" /> */}
 
             {/* <div className="is-overlay is-flex is-justify-content-center"> <p className=" is-flex is-align-self-center"> ±HIiiiiiiiiii</p> </div> */}
