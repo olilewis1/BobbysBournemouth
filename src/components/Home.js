@@ -66,7 +66,7 @@ const Home = () => {
               <div className="modal-background"></div>
               <div className="modal-content ">
                 <div className="modal-card-head">
-                  <h1 className="modal-card-title has-text-centered">
+                  <h1 className="modal-card-title has-text-centered is-size-4-touch">
                     Statement from Ashley Nicholson – Director of Verve Properties
                   </h1>
                 </div>
