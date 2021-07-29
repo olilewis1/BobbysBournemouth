@@ -8,7 +8,7 @@ import pictureFive from '../assets/B&Co PHOTO COLLAGE/COLLAGE POST 5-min.JPG'
 import pictureSix from '../assets/B&Co PHOTO COLLAGE/COLLAGE POST 6-min.JPG'
 import beautyAssociate from '../assets/rewebpage/Beauty Associate copy.pdf'
 import beautySeniorAssociate from '../assets/rewebpage/Beauty Senior Associate.pdf'
-import stockMerchandiser from '../assets/rewebpage/Beauty Stock Merchandiser.pdf'
+// import stockMerchandiser from '../assets/rewebpage/Beauty Stock Merchandiser.pdf'
 // import beautyTeamleader from '../assets/rewebpage/Beauty Team Leader.pdf'
 import droolGeneralAssissant from '../assets/rewebpage/Drool General Assistant.pdf'
 import iceCreamGeneralAssisstant from '../assets/rewebpage/Ice Cream Parlour General Assistant.pdf'
@@ -60,21 +60,6 @@ const Careers = () => {
             <h2 className="mt-6 title">
               Beauty Hall
             </h2>
-            <h4 className="title size-job mt-6 is-size-4-touch mx-6">
-              Stock Merchandiser – Full time
-            </h4>
-            <div className="m-6 is-size-6-touch">
-              Your role is to support the Bobby’s Beauty team in an exciting new beauty hall venture at the Iconic Bobby’s building in
-              Bournemouth town centre. Fundamentally, you will control stock through inventory management, handling procedures,
-              deliveries, and replenishment, whilst also playing a supporting role in customer service and the daily operation of the shop
-              floor.
-              <div className="mx-6">
-                <p className="mt-6 is-size-6-touch ">
-                  Full Job Description: <a href={stockMerchandiser} className="is-size-6-touch" download>DOWNLOAD PDF </a>
-
-                </p>
-              </div>
-            </div>
             <h4 className="title size-job mt-6 is-size-4-touch mx-6">
               Senior Associate – Full time
             </h4>
