@@ -42,7 +42,8 @@ const Home = () => {
             {/* div style={{ display: "inline-block" } */}
             < ImageOverlay
               src={stuartSemple}
-              description={<button onClick={handleClick} id="font-header" className="m-6 is-size-6-mobile has-text-centered button is-dark *">Statement from our Director</button>} />
+              description={<button onClick={handleClick} id="font-header" className="m-6 is-size-6-mobile has-text-centered button is-dark *">Opening Dates & Times
+              </button>} />
             {/* <img className="image-height" src={stuartSemple} alt="Coming Soon" /> */}
 
             {/* <div className="is-overlay is-flex is-justify-content-center"> <p className=" is-flex is-align-self-center"> ±HIiiiiiiiiii</p> </div> */}
@@ -67,28 +68,22 @@ const Home = () => {
               <div className="modal-content ">
                 <div className="modal-card-head">
                   <h1 className="modal-card-title has-text-centered is-size-6-touch">
-                    Statement from Ashley Nicholson – Director of Verve Properties
+                    
                   </h1>
                 </div>
                 <div className="modal-card-body has-text-centered" >
                   <p className="mt-1 is-size-6-touch is-size4" id="modal-homepage">
-                    Over the past few weeks and months, our dedicated team have been working hard to prepare the first phase of the revival of Bobby’s of Bournemouth.
+                  Bobby’s Ice Cream Parlour (the pop-up) and GIANT Gallery are now open. We are open from 10.00 - 18.00 Monday to Saturday and 10.30 - 16.30 on Sundays.
+
                   </p>
                   <p className="mt-4 is-size-6-touch" id="modal-homepage">
-                    This week we have found ourselves in the unfortunate position of many of our dedicated team having to self-isolate.Whilst works to the inside have progressed well, the main delays affect the exterior.
+                  Bobby’s Beauty Hall, Sushi Bar, DROOL, South Coast Makers Shop and Bobby’s Ice Cream Parlour in it’s permanent home will be open from Thursday 9th September.
                   </p>
                   <p className="mt-4 is-size-6-touch" id="modal-homepage">
-                    With the current situation affecting so many people, we’ve taken the difficult decision to delay the opening by five weeks.
+                  We can’t wait to see you all at Bobby’s very soon.
+
                   </p>
-                  <p className="mt-4 is-size-6-touch" id="modal-homepage">
-                    Unless unexpected additional covid restrictions are put in place between now and then, the new opening date will be Thursday 9th September. This will include the Beauty Hall, Sushi Bar and DROOL Food Hall for Dogs.
-                  </p>
-                  <p className="mt-4 is-size-6-touch " id="modal-homepage">
-                    The UK’s largest run contemporary-gallery and Bobby’s Ice Cream Parlour will still be opening as originally  planned in August.
-                  </p>
-                  <p className="mt-4 is-size-6-touch" id="modal-homepage">
-                    As much as it is frustrating to delay the launch, we are excited as ever to forge ahead. We look forward to throwing open our doors when we will be able to show you phase one of Bobby’s in its best light.
-                  </p>
+                
                 </div>
                 {/* <div className="modal-card-foot modal-card-title">Statement from Ashley Nicholson – Director of Verve Properties </div> */}
               </div>
