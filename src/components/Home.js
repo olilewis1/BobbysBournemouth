@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { ImageOverlay } from 'react-image-overlay-effect'
 
 // import bobbysPicOld from '../assets/Screenshot 2021-06-03 at 19.24.38.png'
@@ -10,15 +10,28 @@ const Home = () => {
   // const onChange = (index, item) => {
   //   setIntervalz(item.props['data-interval'])
   // }
-  const [addClass, setAddClass] = useState('is-active')
+  const [addClass, setAddClass] = useState('')
   const handleClick = (event) => {
     console.log(event)
-    setAddClass('is-active')
     if (addClass === 'is-active') {
       setAddClass('')
     }
+    if (addClass === '') {
+      setAddClass('is-active')
+    }
 
   }
+
+  useEffect(() => {
+    const isItVisited = localStorage.getItem('visited')
+    if (isItVisited === null) {
+      setAddClass('is-active')
+    }
+    const toVisit = 'yes'
+    localStorage.setItem('visited', JSON.stringify(toVisit))
+    console.log(toVisit)
+
+  }, [])
 
   return (
     // 
@@ -68,22 +81,22 @@ const Home = () => {
               <div className="modal-content ">
                 <div className="modal-card-head">
                   <h1 className="modal-card-title has-text-centered is-size-6-touch">
-                    
+
                   </h1>
                 </div>
                 <div className="modal-card-body has-text-centered" >
                   <p className="mt-1 is-size-6-touch is-size4" id="modal-homepage">
-                  Bobby’s Ice Cream Parlour (the pop-up) and GIANT Gallery are now open. We are open from 10.00 - 18.00 Monday to Saturday and 10.30 - 16.30 on Sundays.
+                    Bobby’s Ice Cream Parlour (the pop-up) and GIANT Gallery are now open. We are open from 10.00 - 18.00 Monday to Saturday and 10.30 - 16.30 on Sundays.
 
                   </p>
                   <p className="mt-4 is-size-6-touch" id="modal-homepage">
-                  Bobby’s Beauty Hall, Sushi Bar, DROOL, South Coast Makers Shop and Bobby’s Ice Cream Parlour in it’s permanent home will be open from Thursday 9th September.
+                    Bobby’s Beauty Hall, Sushi Bar, DROOL, South Coast Makers Shop and Bobby’s Ice Cream Parlour in it’s permanent home will be open from Thursday 9th September.
                   </p>
                   <p className="mt-4 is-size-6-touch" id="modal-homepage">
-                  We can’t wait to see you all at Bobby’s very soon.
+                    We can’t wait to see you all at Bobby’s very soon.
 
                   </p>
-                
+
                 </div>
                 {/* <div className="modal-card-foot modal-card-title">Statement from Ashley Nicholson – Director of Verve Properties </div> */}
               </div>
