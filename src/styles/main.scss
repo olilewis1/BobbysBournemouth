@@ -1,11 +1,10 @@
-@import '~bulma/bulma.sass';
-@import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
-
+@import "~bulma/bulma.sass";
+@import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 * {
-  font-family: 'Saira Condensed', sans-serif;
-  font-size  : 30px;
-  color      : black;
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 30px;
+  color: black;
 
   .content-overlay {
     display: flex;
@@ -22,7 +21,7 @@
     bottom: 0;
     right: 0;
   }
-  #overlay-content { 
+  #overlay-content {
     opacity: 1;
     background: none;
   }
@@ -36,36 +35,50 @@
   max-height: 100vw;
 }
 
-.navvy { 
+.navvy {
   font-weight: 900;
-  .navbar-center { 
+  .navbar-center {
     display: flex;
     justify-content: center;
     margin-left: auto;
   }
 
-  .navvvy-item{ 
+  .navvvy-item {
     max-height: 6.75rem;
   }
 
-  .image-buttons { 
+  .image-buttons {
     max-height: 3.75rem;
   }
 }
 
-.homepage { 
-
-  #overlay-content { 
+.homepage {
+  #overlay-content {
     display: flex;
-    align-items: baseline;
+    align-items: flex-end;
+    justify-content: flex-start;
   }
-  #font-header { 
+  #font-header {
     color: white;
     font-size: -webkit-xxx-large;
     font-family: "Saira Condensed", sans-serif;
   }
 
-  #modal-homepage { 
+  #modal-homepage {
     font-size: 23px;
+  }
+
+  .hero-p {
+    max-width: 520px;
+    font-weight: bolder;
+    color: #fafafa;
+    margin-left: 50px;
+    font-size: 60px;
+  }
+
+  #hero-button {
+    color: black;
+    max-width: 240px;
+    font-size: 22px;
   }
 }

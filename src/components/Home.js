@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { ImageOverlay } from 'react-image-overlay-effect'
 
 // import bobbysPicOld from '../assets/Screenshot 2021-06-03 at 19.24.38.png'
-import stuartSemple from '../assets/close up front v8-min2.jpg'
+import stuartSemple from '../assets/close up front v8-min2-new.jpg'
 // import { Carousel } from 'react-responsive-carousel'
 const Home = () => {
   // const [intervalz, setIntervalz] = useState(3000) //initial state here represents the interval for first image.
@@ -39,7 +39,7 @@ const Home = () => {
     // 
     <>
       <div className="homepage">
-        <section className="hero">
+        <section className="hero has-background-grey-light">
           {/* <Carousel
         onChange={onChange}
         autoPlay
@@ -51,12 +51,16 @@ const Home = () => {
         </div> */}
 
 
-          <div data-interval={3000}>
+          <div data-interval={3000} >
             {/* div style={{ display: "inline-block" } */}
             < ImageOverlay
               src={stuartSemple}
-              description={<button onClick={handleClick} id="font-header" className="m-6 is-size-6-mobile has-text-centered button is-dark *">Opening Dates & Times
-              </button>} />
+              description={<div className="pl-4">
+                <p className="hero-p  is-size-5-mobile  "> Bringing Bobbys back to Bournemouth.</p>
+                <button onClick={handleClick}
+                  position={'bottomRight'} id="hero-button" className="m-6  is-size-7-touch has-text-centered button  * ">Opening Dates & Times
+                </button>
+              </div>} />
             {/* <img className="image-height" src={stuartSemple} alt="Coming Soon" /> */}
 
             {/* <div className="is-overlay is-flex is-justify-content-center"> <p className=" is-flex is-align-self-center"> ±HIiiiiiiiiii</p> </div> */}
@@ -105,6 +109,16 @@ const Home = () => {
 
           </section>
         </div>
+        <section>
+          <div className="is-flex-tablet has-background-grey-light		">
+            <p className="mx-6 mb-5	has-text-weight-bold p-5">
+              This is the future of bricks and mortar retail, and the Bobby’s Beauty Hall, DROOL, Sushi Bar, Ice Cream Parlour, South Coast Makers Shop and Art gallery will be one of the first elements to open in September 2021.
+            </p>
+            <p className="mx-6 mb-5 p-5	">
+            The vision is to create a new experiential shopping destination led by beauty, health, food and beverage, and wellbeing focused businesses.
+            </p>
+          </div>
+        </section>
       </div>
     </>
   )
