@@ -111,10 +111,10 @@ const Home = () => {
         </div>
         <section>
           <div className="is-flex-tablet has-background-grey-light		">
-            <p className="mx-6 mb-5	has-text-weight-bold p-5">
+            <p className="mx-6 mb-5	has-text-weight-bold p-5 is-size-5-mobile">
               This is the future of bricks and mortar retail, and the Bobby’s Beauty Hall, DROOL, Sushi Bar, Ice Cream Parlour, South Coast Makers Shop and Art gallery will be one of the first elements to open in September 2021.
             </p>
-            <p className="mx-6 mb-5 p-5	">
+            <p className="mx-6 mb-5 p-5	is-size-5-mobile">
             The vision is to create a new experiential shopping destination led by beauty, health, food and beverage, and wellbeing focused businesses.
             </p>
           </div>
