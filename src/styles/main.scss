@@ -55,8 +55,21 @@
 .homepage {
   #overlay-content {
     display: flex;
+    
+  }
+  .flex-hero{ 
+    display: flex;
     align-items: flex-end;
-    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+  }
+  #overlay-content-hero { 
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: flex-start;
+    align-content: center;
+    flex-direction: column;
   }
   #font-header {
     color: white;
@@ -81,4 +94,55 @@
     max-width: 240px;
     font-size: 22px;
   }
+  .fade-text{ 
+    max-width: 650px;
+    height: 470px;
+  }
+  .fade-header{ 
+    font-weight: 900;
+    font-size: 50px;
+  }
+  .fade-p { 
+    font-size:23px;
+  }
+  .fade-div { 
+    display: flex;
+    justify-content: space-around;
+  }
+  .image-overlay {
+    height:60vh;
+    width:100vw;
+  }
+  #overlay-center { 
+    color: red;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .bottom-p { 
+    max-width:619px;
+    font-weight: bolder;
+    color: #fafafa;
+    margin-left: 40px;
+    font-size: 30px;
+  }
 }
+
+@media only screen and (max-width: 768px) {
+  .homepage {
+    #overlay-content-hero {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    .fade-div{ 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+
+
