@@ -1,9 +1,15 @@
 import React, { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import { ImageOverlay } from 'react-image-overlay-effect'
 import Fade from 'react-reveal/Fade'
 import Zoom from 'react-reveal/Zoom'
 // import bobbysPicOld from '../assets/Screenshot 2021-06-03 at 19.24.38.png'
 import stuartSemple from '../assets/close up front v8-min2-new.jpg'
+import bobbysBackground from '../assets/2021_DEBENHAMS_JB_-64_websize.jpg'
+import facebook from '../assets/b763699fd1fa3bfb374442593ae642e1.png'
+import instagram from '../assets/instagram_icon_138461.png'
+import bobbysSquare from '../assets/2021_BOBBYS_RESTORATION_JB_-37_websize (1).jpg'
+import bobbysFlowers from '../assets/2021_BOBBYS_INTERIOR_JB_-41_websize.jpg'
 // import { Carousel } from 'react-responsive-carousel'
 const Home = () => {
   // const [intervalz, setIntervalz] = useState(3000) //initial state here represents the interval for first image.
@@ -58,7 +64,7 @@ const Home = () => {
               src={stuartSemple}
               description={
                 <div className="flex-hero"> <div className="pl-4" id="overlay-content-hero">
-                  <p className="hero-p  is-size-5-mobile is-hidden-mobile "> Bringing Bobbys back to Bournemouth.</p>
+                  <p className="hero-p  is-size-5-mobile is-hidden-mobile "> Bringing Bobby’s back to Bournemouth.</p>
                   <button onClick={handleClick}
                     position={'bottomRight'} id="hero-button" className="m-6  is-size-7-touch has-text-centered button  * ">Opening Dates & Times
                   </button>
@@ -145,28 +151,32 @@ const Home = () => {
             <div className=" pt-6 fade-div	" id="fade-div">
               <Fade left>
                 <div className="fade-text is-flex is-flex-direction-column is-justify-content-space-evenly ">
-                  <h2 className="fade-header">Changing the world is possible. We’ve done it before.</h2>
-                  <p className="fade-p">Our leadership team bring years of experience to bear on the greatest challenge of our time. We’re results driven, with a proven record of previous successes. </p>
-                  <button id="hero-button" className="button"> Learn More</button>
+                  <h2 className="fade-header ">Find out about the story of Bobby’s and Co.</h2>
+                  <p className="fade-p">The property was acquired in late 2019 and Verve Properties who recently transformed The Avenue Centre just up the road are at the helm to bring the Bobby’s building back to life. </p>
+                  <Link to="/ourstory" className=" navbar-item">
+                    <button id="hero-button" className="button"> Learn More</button>
+                  </Link>
                 </div>
               </Fade>
               <Fade right>
-                <img className="image" height="300" width="400" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Square_-_black_simple.svg/1200px-Square_-_black_simple.svg.png" />
+                <img className="image fade-image" height="300" width="400" src={bobbysSquare} />
 
               </Fade>
             </div>
           </Zoom>
           <Zoom>
 
-            <div className="fade-div pt-6	">
+            <div className="fade-div pt-6	fade-left">
               <Fade left>
-                <img className="image fade-image" height="300" width="400" src="https://source.unsplash.com/random/300x400" />
+                <img className="image fade-image" height="300" width="400" src={bobbysFlowers} />
               </Fade>
               <Fade right>
-                <div className="fade-text is-flex is-flex-direction-column is-justify-content-space-evenly ml-5">
-                  <h2 className="fade-header">Changing the world is possible. We’ve done it before.</h2>
-                  <p className="fade-p">Our leadership team bring years of experience to bear on the greatest challenge of our time. We’re results driven, with a proven record of previous successes. </p>
-                  <button id="hero-button" className="button"> Learn More</button>
+                <div className="fade-text is-flex is-flex-direction-column is-justify-content-space-evenly fade-second ">
+                  <h2 className="fade-header">Here is what’s to come.</h2>
+                  <p className="fade-p">There is lots to look forward to over the next few months and into 2022, with further elements of the store opening. All of which feature local independent traders and businesses. </p>
+                  <Link to="/whatscoming" >
+                    <button id="hero-button" className="button"> Learn More</button>
+                  </Link>
                 </div>
               </Fade>
             </div>
@@ -187,12 +197,12 @@ const Home = () => {
           <div data-interval={3000} className="pt-6" >
             {/* div style={{ display: "inline-block" } */}
             < ImageOverlay
-              src={stuartSemple}
-              className="image-overlay"
+              src={bobbysBackground}
+              className="image-overlay image-bottom-overlay"
               id="overlay-center"
               description={<div className="pl-4 overlay-center" id="overlay-center">
-                <p className="bottom-p  is-size-5-mobile "> “Clarkson has helped accomplish over 200 of its partners’ major conservation goals. They inspire everyone to care for the planet.”</p>
-                <p> — Quote Source</p>
+                <p className="bottom-p  is-size-5-mobile "> “Community, localism, sustainability, and experience will dominate the new era of inperson shopping – and we have worked to ensure they will be the focus of our repurposing of Bobby’s. We aim to be an iconic building of regional significance in the heart of Bournemouth town centre. The aim of our project is to prove that there is a future for high streets across the UK.”</p>
+                <p className="director-p pl-4">Ashley Nicholson — Director, Verve Properties</p>
               </div>} />
             {/* <img className="image-height" src={stuartSemple} alt="Coming Soon" /> */}
 
@@ -201,8 +211,35 @@ const Home = () => {
           <div className="columns is-vcentered has-text-centered	is-hidden-tablet	 ">
             {/* <div className="column"></div> */}<div className=""> </div>
           </div>
+
           {/* </Carousel> */}
 
+        </section>
+        <section>
+          <div className="social-media mt-6">
+            <div className="social-media-right">
+              <p className="fade-header">
+                Follow us on social media to find out what we are up to next.
+              </p>
+            </div>
+            <div className="social-media-left">
+              <p className="fade-p">
+                The way forward is to bring together the community by hosting an ever-changing rota of events and activities whilst providing products locally sourced that can’t be bought or experienced on the internet. Sustainability isn’t and must not be a fad - it is the new everyday.
+              </p>
+              <div>
+                <div className="buttons">
+                  {/* <Link to={{ pathname: 'https://www.facebook.com/bobbysbournemouth/' }} > <img className="image-buttons" src={facebook} alt="image" /></Link> */}
+                  <div className="social-media-item">
+                    <a href="https://www.facebook.com/bobbysbournemouth/" ><img className="image-buttons" src={facebook} alt="image" /></a>
+                  </div>
+                  <div className="social-media-item">
+                    <a href="https://www.instagram.com/bobbysbournemouth/" ><img className="image-buttons" src={instagram} alt="image" /></a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
         </section>
       </div>
     </>

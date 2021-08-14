@@ -55,15 +55,14 @@
 .homepage {
   #overlay-content {
     display: flex;
-    
   }
-  .flex-hero{ 
+  .flex-hero {
     display: flex;
     align-items: flex-end;
     height: 100%;
     width: 100%;
   }
-  #overlay-content-hero { 
+  #overlay-content-hero {
     display: flex;
     justify-content: center;
     flex: 1;
@@ -94,26 +93,32 @@
     max-width: 240px;
     font-size: 22px;
   }
-  .fade-text{ 
+  .fade-text {
     max-width: 650px;
     height: 470px;
   }
-  .fade-header{ 
+  .fade-header {
     font-weight: 900;
     font-size: 50px;
   }
-  .fade-p { 
-    font-size:23px;
+  .fade-p {
+    font-size: 23px;
   }
-  .fade-div { 
+  .fade-div {
     display: flex;
     justify-content: space-around;
   }
-  .image-overlay {
-    height:60vh;
-    width:100vw;
+
+  .fade-image {
+    width: 400px;
+    height: 530px;
+    object-fit: cover;
   }
-  #overlay-center { 
+  .image-overlay {
+    height: 60vh;
+    width: 100vw;
+  }
+  #overlay-center {
     color: red;
     display: flex;
     flex-direction: column;
@@ -121,28 +126,87 @@
     justify-content: space-evenly;
     align-items: center;
   }
-  .bottom-p { 
-    max-width:619px;
+  .bottom-p {
+    max-width: 619px;
     font-weight: bolder;
     color: #fafafa;
     margin-left: 40px;
     font-size: 30px;
   }
+  .director-p {
+    color: white;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .social-media-item {
+    width: 70px;
+  }
+  .buttons:last-child {
+    margin-bottom: -0.5rem;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .social-media-right {
+    max-width: 650px;
+  }
+  .social-media-left {
+    max-width: 520px;
+  }
+  .image-bottom-overlay {
+    object-fit: cover;
+    width: 100vw;
+    height: 630px;
+  }
+  .fade-second { 
+    padding-left: 30px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
+  body { 
+    width: 101%;
+  }
   .homepage {
+    text-align: center;
     #overlay-content-hero {
       display: flex;
-      align-items: flex-start;
+      align-items: center;
       justify-content: center;
+      margin: -30px;
     }
-    .fade-div{ 
+    .fade-div {
       display: flex;
       flex-direction: column;
       align-items: center;
     }
+    .social-media {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .flex-hero {
+      align-items: flex-start;
+    }
+    .fade-text { 
+      margin-right: 40px;
+      margin-left: 40px;
+      align-items: center;
+    }
+    .overlay-center { 
+      padding-right: 40px;
+    }
+    .social-media { 
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    .fade-left { 
+      flex-direction: column-reverse;
+    }
   }
 }
-
-
