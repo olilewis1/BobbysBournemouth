@@ -20,7 +20,7 @@ const Careers = () => {
     <div>
       <div className="our-story">
         <section className="hero">
-          <div className="hero-body is-flex image-height">
+          <div className="hero-body is-flex image-height" id="hero-padding">
             {/* <figure className="image">
               <img src={pictureThree} alt="image-1" />
             </figure>
@@ -126,7 +126,6 @@ const Careers = () => {
               <div className="mx-6">
                 <p className="mt-6 is-size-6-touch ">
                   Full Job Description: <a href={droolGeneralAssissant} className="is-size-6-touch" download>DOWNLOAD PDF </a>
-
                 </p>
               </div>
             </div>

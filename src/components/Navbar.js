@@ -45,9 +45,9 @@ const Navbar = () => {
                 Home
               </p>
             </Link>
-            <Link to="/ourstory" className=" navbar-item">
+            <Link to="/whatsinside" className=" navbar-item">
               <p className="has-text-black">
-                The Story
+                Inside
               </p>
             </Link>
             <Link to="/careers" className="navbar-item">

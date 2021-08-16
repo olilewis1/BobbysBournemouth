@@ -9,7 +9,7 @@ const WhatsComing = () => {
 
     <div className="our-story">
       <section className="hero">
-        <div className="hero-body is-flex image-height">
+        <div className="hero-body is-flex image-height" id="hero-padding">
           <figure className="image">
             <img src={pictureThree} alt="image-1" />
           </figure>
@@ -47,7 +47,7 @@ const WhatsComing = () => {
 
         </p>
         <h2 className="mt-6 title">
-          THE MARKET HALL
+          The Market Hall
 
         </h2>
         <p className="m-6 is-size-6-touch">
@@ -56,10 +56,17 @@ const WhatsComing = () => {
 
         </p>
         <h2 className="mt-6 title">
-        DISTRICT
+          DISTRICT
         </h2>
         <p className="m-6 is-size-6-touch">
-          Information incoming...
+          We’re serious about smoked food and banging brews.
+
+          DISTRICT brings to life the char-grilled flavours of authentic Texan barbecue, smoked the Austin way - low ’n’ slow. Speciality barbecue requires specialist equipment, which is why all our smoking takes place in “Cooper”, our custom-built 1.5 ton smoker, built and shipped all the way from the Lone Star State itself.
+
+          Our briskets spend 15 hours bathing in kiln-dried Oak and Hickory smoke leaving juicy and succulent cuts that melt in your mouth. From tender pork belly ribs and charcoal grilled steaks to adventurous sides and bespoke plant-based deliciousness, you’ll always find something to satisfy at DISTRICT.
+
+          Located in the heart of Bournemouth town centre, as part of the iconic Bobby’s & Co. building, our New York-style warehouse unit offers the perfect setting for bohemian beers, craft cocktails and speciality Texan barbecue.
+
 
         </p>
       </section>

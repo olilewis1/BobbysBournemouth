@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade'
 import Zoom from 'react-reveal/Zoom'
 // import bobbysPicOld from '../assets/Screenshot 2021-06-03 at 19.24.38.png'
 import stuartSemple from '../assets/close up front v8-min2-new.jpg'
-import bobbysBackground from '../assets/2021_DEBENHAMS_JB_-64_websize.jpg'
+import bobbysBackground from '../assets/image.jpg'
 import facebook from '../assets/b763699fd1fa3bfb374442593ae642e1.png'
 import instagram from '../assets/instagram_icon_138461.png'
 import bobbysSquare from '../assets/2021_BOBBYS_RESTORATION_JB_-37_websize (1).jpg'
@@ -63,11 +63,14 @@ const Home = () => {
             < ImageOverlay
               src={stuartSemple}
               description={
-                <div className="flex-hero"> <div className="pl-4" id="overlay-content-hero">
-                  <p className="hero-p  is-size-5-mobile is-hidden-mobile "> Bringing Bobby’s back to Bournemouth.</p>
-                  <button onClick={handleClick}
-                    position={'bottomRight'} id="hero-button" className="m-6  is-size-7-touch has-text-centered button  * ">Opening Dates & Times
-                  </button>
+                <div className="overlay-main-hero "> <div className="" id="">
+                  <div className="">
+                    <p className="hero-p  is-size-5-mobile is-hidden-mobile "> Bringing Bobby’s back to Bournemouth.</p>
+                    <button onClick={handleClick}
+                      position={'bottomRight'} id="hero-button" className=" is-size-7-touch has-text-centered button  * ">Opening Dates & Times
+                    </button>
+                  </div>
+                  <div className=""> </div>
                 </div>
                 </div>} />
             {/* <img className="image-height" src={stuartSemple} alt="Coming Soon" /> */}
@@ -119,11 +122,11 @@ const Home = () => {
           </section>
         </div>
         <section>
-          <div className="is-flex-tablet has-background-grey-light		">
-            <p className="mx-6 mb-5	has-text-weight-bold p-5 is-size-5-mobile">
+          <div className="is-flex-tablet has-background-grey-light pt-6 pb-6 maindiv-flex">
+            <p className="	has-text-weight-bold is-size-5-mobile right-div">
               This is the future of bricks and mortar retail, and the Bobby’s Beauty Hall, DROOL, Sushi Bar, Ice Cream Parlour, South Coast Makers Shop and Art gallery will be one of the first elements to open in September 2021.
             </p>
-            <p className="mx-6 mb-5 p-5	is-size-5-mobile">
+            <p className="	is-size-5-mobile left-div">
               The vision is to create a new experiential shopping destination led by beauty, health, food and beverage, and wellbeing focused businesses.
             </p>
           </div>
@@ -148,18 +151,18 @@ const Home = () => {
           </p> */}
           <Zoom>
 
-            <div className=" pt-6 fade-div	" id="fade-div">
+            <div className=" pt-6 fade-div padding-to-add	" id="fade-div">
               <Fade left>
                 <div className="fade-text is-flex is-flex-direction-column is-justify-content-space-evenly ">
-                  <h2 className="fade-header ">Find out about the story of Bobby’s and Co.</h2>
+                  <h2 className="fade-header padding-to-add"> The story of Bobby & Co.</h2>
                   <p className="fade-p">The property was acquired in late 2019 and Verve Properties who recently transformed The Avenue Centre just up the road are at the helm to bring the Bobby’s building back to life. </p>
-                  <Link to="/ourstory" className=" navbar-item">
-                    <button id="hero-button" className="button"> Learn More</button>
+                  <Link to="/ourstory">
+                    <button id="fade-button" className="button fade-button"> Learn More</button>
                   </Link>
                 </div>
               </Fade>
-              <Fade right>
-                <img className="image fade-image" height="300" width="400" src={bobbysSquare} />
+              <Fade right className="padding-to-add">
+                <img className="image fade-image padding-to-add" height="300" width="400" src={bobbysSquare} />
 
               </Fade>
             </div>
@@ -175,7 +178,7 @@ const Home = () => {
                   <h2 className="fade-header">Here is what’s to come.</h2>
                   <p className="fade-p">There is lots to look forward to over the next few months and into 2022, with further elements of the store opening. All of which feature local independent traders and businesses. </p>
                   <Link to="/whatscoming" >
-                    <button id="hero-button" className="button"> Learn More</button>
+                    <button className="button fade-button"> Learn More</button>
                   </Link>
                 </div>
               </Fade>
@@ -216,18 +219,18 @@ const Home = () => {
 
         </section>
         <section>
-          <div className="social-media mt-6">
-            <div className="social-media-right">
-              <p className="fade-header">
+          <div className="social-media mt-6 maindiv-flex">
+            <div className="social-media-right right-div">
+              <p className="fade-header ">
                 Follow us on social media to find out what we are up to next.
               </p>
             </div>
-            <div className="social-media-left">
+            <div className="social-media-left left-div">
               <p className="fade-p">
                 The way forward is to bring together the community by hosting an ever-changing rota of events and activities whilst providing products locally sourced that can’t be bought or experienced on the internet. Sustainability isn’t and must not be a fad - it is the new everyday.
               </p>
               <div>
-                <div className="buttons">
+                <div className="buttons pt-3">
                   {/* <Link to={{ pathname: 'https://www.facebook.com/bobbysbournemouth/' }} > <img className="image-buttons" src={facebook} alt="image" /></Link> */}
                   <div className="social-media-item">
                     <a href="https://www.facebook.com/bobbysbournemouth/" ><img className="image-buttons" src={facebook} alt="image" /></a>
