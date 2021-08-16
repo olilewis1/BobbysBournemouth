@@ -47,7 +47,7 @@ const Navbar = () => {
             </Link>
             <Link to="/whatsinside" className=" navbar-item">
               <p className="has-text-black">
-                Inside
+                What’s Inside
               </p>
             </Link>
             <Link to="/careers" className="navbar-item">
