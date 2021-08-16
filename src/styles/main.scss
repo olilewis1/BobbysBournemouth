@@ -247,9 +247,17 @@
     .maindiv-flex {
       flex-direction: column;
     }
-    .left-div { 
+    .left-div {
       max-width: 680px;
       padding-top: 10px;
+      margin-right: 40px;
+      margin-left: 40px;
+      align-items: center;
+    }
+    .right-div {
+      margin-right: 40px;
+      margin-left: 40px;
+      align-items: center;
     }
   }
 }
