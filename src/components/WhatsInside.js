@@ -45,6 +45,14 @@ const WhatsInside = () => {
           The Bobby’s Beauty Hall offers a fresh new look at health and wellbeing retail. Housing the global brands that we all know and love as well as a dedicated section for local, sustainable and conscious beauty and health products, many of which are exclusive to Bobby’s. The Beauty Hall has been designed to be full of greenery and warm wooden surfaces to create a light and airy feel so you can relax and enjoy your shopping experience.  Our performance area sits immediately adjacent to the Beauty Hall where we host events including product sampling, make-up tutorials and where founders come along and tell the story behind the development of their products and how to use them.
 
         </p>
+
+        <h2 className="mt-6 title">
+          Art Gallery
+        </h2>
+        <p className="m-6 is-size-6-touch">
+          The UK’s largest artist-run contemporary gallery space has landed on our second floor with two major exhibitions; The Art of Protest and Big Medicine. Including works by seminal international artists, among them Turner prize winner Jeremy Deller, Gavin Turk and new site-specific pieces by Nicky Carvel, Jim Lambie, and Gary Card.
+
+        </p>
         <h2 className="mt-6 title">
           Bobby’s Ice Cream Parlour
         </h2>
@@ -90,7 +98,7 @@ const WhatsInside = () => {
           Brow Bar, Benito offers a full range of facial threading services from beautifully precise speedy brow shaping to lashes in many sizes, shapes, and flutteryness. Our experienced Brow and Lash Technicians are waiting. Everyone is welcome,simply Walk-In anytime
           or book a service and experience - <a className="is-size-6">https://benitobrowbar.com/ </a>
         </p>
-        
+
         <h2 className="mt-6 title">
           Intime Watch repair
 
