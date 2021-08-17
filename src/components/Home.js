@@ -8,7 +8,7 @@ import stuartSemple from '../assets/close up front v8-min2-new.jpg'
 import bobbysBackground from '../assets/image.jpg'
 import facebook from '../assets/b763699fd1fa3bfb374442593ae642e1.png'
 import instagram from '../assets/instagram_icon_138461.png'
-import bobbysSquare from '../assets/2021_BOBBYS_RESTORATION_JB_-37_websize (1).jpg'
+import bobbysSquare from '../assets/2021_BOBBYS_INTERIOR_JB_-63_websize.jpg'
 import bobbysFlowers from '../assets/2021_BOBBYS_INTERIOR_JB_-41_websize.jpg'
 // import { Carousel } from 'react-responsive-carousel'
 const Home = () => {
