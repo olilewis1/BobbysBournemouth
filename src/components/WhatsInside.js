@@ -64,7 +64,7 @@ const WhatsInside = () => {
           Drool
         </h2>
         <p className="m-6 is-size-6-touch">
-          The summer pop-up that has got both tongues and tails wagging: DROOL the first food hall devoted entirely to dogs. Featuring a cake shop, a “Lick ‘n’ Mix station”, a doggy tuck shop, a dog ball recycling centre (for the eco conscious canine in your life), Fish & Chip Flavour Dog Treats, Seaside Theme Biscuits, “Cherry Barkwells”, Dog Doughnuts and even Liver Cakes. With the abundance of new dog owners over the pandemic, this is the must visit destination this summer for you and your four legged friend.
+          The summer pop-up that has got both tongues and tails wagging: DROOL the first food hall devoted entirely to dogs. Featuring a cake shop, a “Lick ‘n’ Mix station”, a doggy tuck shop, a dog ball recycling centre (for the eco conscious canine in your life), Fish & Chip Flavour Dog Treats, Seaside Theme Biscuits, Dog Doughnuts and even Liver Cakes. With the abundance of new dog owners over the pandemic, this is the must visit destination this summer for you and your four legged friend.
 
         </p>
         <h2 className="mt-6 title">
