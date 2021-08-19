@@ -1,8 +1,11 @@
 @import "~bulma/bulma.sass";
 @import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
+button { 
+  font-family: 'Poppins', sans-serif;
+}
 * {
-  font-family: "Saira Condensed", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 30px;
   color: black;
   .content-overlay {
@@ -76,7 +79,7 @@
   #font-header {
     color: white;
     font-size: -webkit-xxx-large;
-    font-family: "Saira Condensed", sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
 
   #modal-homepage {
@@ -88,12 +91,12 @@
     font-weight: bolder;
     color: #fafafa;
     margin-left: 30px;
-    font-size: 60px;
+    font-size: 40px;
   }
 
   #hero-button {
     color: black;
-    max-width: 240px;
+    max-width: 265px;
     font-size: 22px;
     margin-left: 30px;
   }
@@ -197,6 +200,7 @@
     width: 101%;
   }
   .homepage {
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     #overlay-content-hero {
       display: flex;
@@ -234,6 +238,7 @@
     .social-media {
       padding-left: 40px;
       padding-right: 40px;
+      font-size: 10px;
     }
     .fade-left {
       flex-direction: column-reverse;
@@ -258,6 +263,21 @@
       margin-right: 40px;
       margin-left: 40px;
       align-items: center;
+    }
+    .fade-header { 
+      font-size: 30px;
+    }
+    .fade-p { 
+      font-size: 20px;
+    }
+    .bottom-p { 
+      font-size: 18px;
+    }
+    #modal-homepage { 
+      font-size: 20px;
+    }
+    .modal-content { 
+      width: 80%;
     }
   }
 }

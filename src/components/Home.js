@@ -45,7 +45,7 @@ const Home = () => {
     //   <img src={bobbysPicOld} alt="" /> 
     // 
     <>
-      <div className="homepage">
+      <div className="homepage is-size-6-touch">
         <section className="hero has-background-grey-light">
           {/* <Carousel
         onChange={onChange}
@@ -101,14 +101,14 @@ const Home = () => {
                   </h1>
                 </div>
                 <div className="modal-card-body has-text-centered" >
-                  <p className="mt-1 is-size-6-touch is-size4" id="modal-homepage">
+                  <p className="mt-1 is-size4" id="modal-homepage">
                     Bobby’s Ice Cream Parlour (the pop-up) and GIANT Gallery are now open. We are open from 10.00 - 18.00 Monday to Saturday and 10.30 - 16.30 on Sundays.
 
                   </p>
-                  <p className="mt-4 is-size-6-touch" id="modal-homepage">
+                  <p className="mt-4 " id="modal-homepage">
                     Bobby’s Beauty Hall, Sushi Bar, DROOL, South Coast Makers Shop and Bobby’s Ice Cream Parlour in it’s permanent home will be open from Thursday 9th September.
                   </p>
-                  <p className="mt-4 is-size-6-touch" id="modal-homepage">
+                  <p className="mt-4 " id="modal-homepage">
                     We can’t wait to see you all at Bobby’s very soon.
 
                   </p>
@@ -204,7 +204,7 @@ const Home = () => {
               className="image-overlay image-bottom-overlay"
               id="overlay-center"
               description={<div className="pl-4 overlay-center" id="overlay-center">
-                <p className="bottom-p  is-size-5-mobile "> “Community, localism, sustainability, and experience will dominate the new era of inperson shopping – and we have worked to ensure they will be the focus of our repurposing of Bobby’s. We aim to be an iconic building of regional significance in the heart of Bournemouth town centre. The aim of our project is to prove that there is a future for high streets across the UK.”</p>
+                <p className="bottom-p  "> “Community, localism, sustainability, and experience will dominate the new era of inperson shopping – and we have worked to ensure they will be the focus of our repurposing of Bobby’s. We aim to be an iconic building of regional significance in the heart of Bournemouth town centre. The aim of our project is to prove that there is a future for high streets across the UK.”</p>
                 <p className="director-p pl-4">Ashley Nicholson — Director, Verve Properties</p>
               </div>} />
             {/* <img className="image-height" src={stuartSemple} alt="Coming Soon" /> */}
