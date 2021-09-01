@@ -101,13 +101,17 @@ const Home = () => {
                   </h1>
                 </div>
                 <div className="modal-card-body has-text-centered" >
+                  <p className="mt-4 " id="modal-homepage">
+                    Bobby’s Beauty Hall, Sushi Bar, DROOL, South Coast Makers Shop and Bobby’s Ice Cream Parlour will be open from Thursday 9th September.
+                  </p>
+                  <p> 
+                    The pop-up Ice Cream Parlour is now closed as we prepare for the unveiling of its permanent location opening next week.
+                  </p>
                   <p className="mt-1 is-size4" id="modal-homepage">
-                    Bobby’s Ice Cream Parlour (the pop-up) and GIANT Gallery are now open. We are open from 10.00 - 18.00 Monday to Saturday and 10.30 - 16.30 on Sundays.
+                    GIANT Gallery is now open from 10.00 - 18.00 Monday to Saturday and 10.30 - 16.30 on Sundays.
 
                   </p>
-                  <p className="mt-4 " id="modal-homepage">
-                    Bobby’s Beauty Hall, Sushi Bar, DROOL, South Coast Makers Shop and Bobby’s Ice Cream Parlour in it’s permanent home will be open from Thursday 9th September.
-                  </p>
+
                   <p className="mt-4 " id="modal-homepage">
                     We can’t wait to see you all at Bobby’s very soon.
 
