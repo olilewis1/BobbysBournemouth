@@ -11,7 +11,7 @@ import beautyAssociate from '../assets/rewebpage/Beauty Associate copy.pdf'
 // import stockMerchandiser from '../assets/rewebpage/Beauty Stock Merchandiser.pdf'
 // import beautyTeamleader from '../assets/rewebpage/Beauty Team Leader.pdf'
 // import droolGeneralAssissant from '../assets/rewebpage/Drool General Assistant.pdf'
-import iceCreamGeneralAssisstant from '../assets/rewebpage/Ice Cream Parlour General Assistant.pdf'
+// import iceCreamGeneralAssisstant from '../assets/rewebpage/Ice Cream Parlour General Assistant.pdf'
 // import iceCreamTeamLeader from '../assets/rewebpage/Ice Cream Parlour Team Leader.pdf'
 
 
@@ -75,26 +75,7 @@ const Careers = () => {
               </div>
             </div>
           </section>
-          <section className="Ice-cream">
-            <h2 className="mt-6 title">
-              Ice Cream Parlour
-            </h2>
-            
-            <h4 className="title size-job mt-6 is-size-4-touch mx-6">
-              General Assistant – Full time, part time and week hours available
-            </h4>
-            <div className="m-6 is-size-6-touch">
-              Your role is to support the Bobby’s Ice Cream Parlour team in an exciting new food and beverage venture at the Iconic
-              Bobby’s building in Bournemouth town centre. Fundamentally, your role is to provide exceptional customer service, maintain
-              excellent product quality, displays, and hygiene standards.
-              <div className="mx-6">
-                <p className="mt-6 is-size-6-touch ">
-                  Full Job Description: <a href={iceCreamGeneralAssisstant} className="is-size-6-touch" download>DOWNLOAD PDF </a>
-
-                </p>
-              </div>
-            </div>
-          </section>
+          
         </section>
       </div>
     </div>

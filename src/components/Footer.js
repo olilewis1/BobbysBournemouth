@@ -11,6 +11,9 @@ const Footer = () => {
         <div>
           <a href="mailto: enquiries@bobbysbournemouth.com" className="is-size-5 is-size-6-touch">enquiries@bobbysbournemouth.com</a>
         </div>
+        <div>
+          <a href="mailto: careers@bobbysbournemouth.com" className="is-size-5 is-size-6-touch">careers@bobbysbournemouth.com</a>
+        </div>
       </div>
     </footer>
 
