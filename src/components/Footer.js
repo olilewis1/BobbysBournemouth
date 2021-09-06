@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 import bobbysButton from '../assets/B&CO EST 1915 ORANGE.png'
 const Footer = () => {
   return (
@@ -11,9 +11,9 @@ const Footer = () => {
         <div>
           <a href="mailto: enquiries@bobbysbournemouth.com" className="is-size-5 is-size-6-touch">enquiries@bobbysbournemouth.com</a>
         </div>
-        <div>
-          <a href="mailto: careers@bobbysbournemouth.com" className="is-size-5 is-size-6-touch">careers@bobbysbournemouth.com</a>
-        </div>
+        <Link to="/refund">
+          <button className="button fade-button is-size-7 mt-6"> Bobby’s Beauty Hall Refund Policy</button>
+        </Link>
       </div>
     </footer>
 

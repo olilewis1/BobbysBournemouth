@@ -10,6 +10,7 @@ import Careers from './components/Careers'
 import WhatsInside from './components/WhatsInside'
 import WhatsComing from './components/WhatsComing'
 import ScrollToTop from './components/ScrollToTop'
+import Refund from './components/Refund'
 function App() {
   return (
     <BrowserRouter>
@@ -32,6 +33,11 @@ function App() {
         <Route exact path='/whatscoming'>
           <ScrollToTop>
             <WhatsComing />
+          </ScrollToTop>
+        </Route>
+        <Route exact path='/refund'>
+          <ScrollToTop>
+            <Refund />
           </ScrollToTop>
         </Route>
       </Switch>
