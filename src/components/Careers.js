@@ -73,9 +73,18 @@ const Careers = () => {
 
                 </p>
               </div>
+
             </div>
+            <h4 className="title size-job mt-6 is-size-4-touch mx-6">
+              Brow Threader - Full time
+            </h4>
+
+            <div>
+              <p className="mt-6 is-size-6-touch ">
+              </p></div>
+
           </section>
-          
+
         </section>
       </div>
     </div>

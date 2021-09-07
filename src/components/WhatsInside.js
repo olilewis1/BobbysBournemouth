@@ -81,6 +81,9 @@ const WhatsInside = () => {
         <p className="m-6 is-size-6-touch">
           We are really excited to be bringing DRGNFLY to Bobby & Co, situated within the heart of our Beauty Hall.
         </p>
+        <p className="m-6 is-size-6-touch">
+          Coming soon.
+        </p>
         <h2 className="mt-6 title">
           South Coast Makers Shop
 

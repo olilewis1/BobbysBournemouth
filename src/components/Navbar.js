@@ -50,9 +50,9 @@ const Navbar = () => {
                 What’s Inside
               </p>
             </Link>
-            <Link to="/whatscoming" className="navbar-item">
+            <Link to="/careers" className="navbar-item">
               <p className="has-text-black " >
-              What’s Coming
+              Careers
               </p>
             </Link>
           </div>
