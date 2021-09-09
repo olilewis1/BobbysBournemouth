@@ -113,6 +113,17 @@ const WhatsInside = () => {
 
         </p>
 
+        <h2 className="mt-6 title">
+          True Gents Barbers
+
+        </h2>
+        <p className="m-6 is-size-6-touch">
+          True Gents is an Old School BarberShop that specialises in cut throat razors, traditional haircuts and hot towel shaves. The TGB team Fernando are here to best suit your busy agenda,  giving you the personal attention you deserve.
+        </p>
+
+
+
+
       </section>
     </div>
   )
