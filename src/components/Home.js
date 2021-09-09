@@ -104,7 +104,7 @@ const Home = () => {
                   <p className="mt-4 " id="modal-homepage">
                     Bobby’s Beauty Hall, DROOL, South Coast Makers Shop, Bobby’s Ice Cream Parlour and GIANT Gallery are now open from 10:00AM - 6:00PM Mon-Sat and 10:30AM - 4:30PM Sun.
                   </p>
-                  <p>
+                  <p className="mt-4 " id="modal-homepage">
                     DRGNFLY Sushi Bar Opens late September
                   </p>
 
