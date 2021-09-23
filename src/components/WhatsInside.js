@@ -60,6 +60,9 @@ const WhatsInside = () => {
           A small, locally run parlour set within the historic Bobby’s of Bournemouth building. Our friendly team will be serving up a selection of delicious homemade ice cream, freshly ground coffee (from local legends Bad Hand) and baked goods every day of the week and welcome all to pop in.
 
         </p>
+        <p className="m-6 is-size-6-touch">
+          Contact us for allergen information.
+        </p>
         <h2 className="mt-6 title">
           Drool
         </h2>
@@ -67,6 +70,7 @@ const WhatsInside = () => {
           The summer pop-up that has got both tongues and tails wagging: DROOL the first food hall devoted entirely to dogs. Featuring a cake shop, a “Lick ‘n’ Mix station”, a doggy tuck shop, a dog ball recycling centre (for the eco conscious canine in your life), Fish & Chip Flavour Dog Treats, Seaside Theme Biscuits, Dog Doughnuts and even Liver Cakes. With the abundance of new dog owners over the pandemic, this is the must visit destination this summer for you and your four legged friend.
 
         </p>
+
         <h2 className="mt-6 title">
           DRGNFLY
         </h2>
@@ -93,14 +97,6 @@ const WhatsInside = () => {
 
           Our ever changing collection includes ceramics, woodwork, homewares, stationery, greeting cards, candles, prints alongside locally produced food and drink such as artisan gin, handmade fudge and local honey.
         </p>
-        <h2 className="mt-6 title">
-          Benito Brow Bar
-        </h2>
-        <p className="m-6 is-size-6-touch">
-          It’s simple really!  As pioneers of the stand-alone
-          Brow Bar, Benito offers a full range of facial threading services from beautifully precise speedy brow shaping to lashes in many sizes, shapes, and flutteryness. Our experienced Brow and Lash Technicians are waiting. Everyone is welcome,simply Walk-In anytime
-          or book a service and experience - <a className="is-size-6">https://benitobrowbar.com/ </a>
-        </p>
 
         <h2 className="mt-6 title">
           Intime Watch repair
@@ -108,7 +104,7 @@ const WhatsInside = () => {
         </h2>
         <p className="m-6 is-size-6-touch">
           As Members of the British Watch & Clock Makers Guild we have been providing a dedicated watch and jewellery service to customers all over the world, for over forty years.
-          Whether you need a simple repair or something more complex; we appreciate that many watches and jewellery pieces hold sentimental value and our highly skilled team will work hard to get your item back to you quickly and efficiently - <a className="is-size-6">https://intime.co.uk/ </a>
+          Whether you need a simple repair or something more complex; we appreciate that many watches and jewellery pieces hold sentimental value and our highly skilled team will work hard to get your item back to you quickly and efficiently -
 
 
         </p>
@@ -121,6 +117,32 @@ const WhatsInside = () => {
           True Gents is an Old School BarberShop that specialises in cut throat razors, traditional haircuts and hot towel shaves. The TGB team Fernando are here to best suit your busy agenda,  giving you the personal attention you deserve.
         </p>
 
+
+
+        <h2 className="mt-6 title">
+          Benito Brow Bar
+        </h2>
+        <p className="m-6 is-size-6-touch">
+          It’s simple really!  As pioneers of the stand-alone
+          Brow Bar, Benito offers a full range of facial threading services from beautifully precise speedy brow shaping to lashes in many sizes, shapes, and flutteryness. Our experienced Brow and Lash Technicians are waiting. Everyone is welcome,simply Walk-In anytime
+          or book a service and experience
+        </p>
+        <p className="m-6 is-size-6-touch">
+          Coming soon.
+        </p>
+
+        <h2 className="mt-6 title">
+          The Venue Beauty Salon
+        </h2>
+        <p className="m-6 is-size-6-touch">
+          The Venue, in the vibrant hub of Bobbys, Bournemouth offers a haven of calm and indulgent luxury together with an inspiring energetic and creative environment. Founder Emily Dillon and Director Caroline Crichton lead a highly talented and experienced team of therapists to create an outstanding experience and exceptional level of service to valued clients.
+        </p>
+        <p className="m-6 is-size-6-touch">
+          Your health and wellbeing is our priority, but comfort and convenience is important too. With online booking services, the latest aesthetic and non-surgical technology for face and body, iPads and mobile phone charging points, life just got a little easier.
+        </p>
+        <p className="m-6 is-size-6-touch">
+          Coming soon.
+        </p>
 
 
 
