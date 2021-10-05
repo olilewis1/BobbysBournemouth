@@ -85,9 +85,7 @@ const WhatsInside = () => {
         <p className="m-6 is-size-6-touch">
           We are really excited to be bringing DRGNFLY to Bobby & Co, situated within the heart of our Beauty Hall.
         </p>
-        <p className="m-6 is-size-6-touch">
-          Coming soon.
-        </p>
+
         <h2 className="mt-6 title">
           South Coast Makers Shop
 
@@ -115,20 +113,6 @@ const WhatsInside = () => {
         </h2>
         <p className="m-6 is-size-6-touch">
           True Gents is an Old School BarberShop that specialises in cut throat razors, traditional haircuts and hot towel shaves. The TGB team Fernando are here to best suit your busy agenda,  giving you the personal attention you deserve.
-        </p>
-
-
-
-        <h2 className="mt-6 title">
-          Benito Brow Bar
-        </h2>
-        <p className="m-6 is-size-6-touch">
-          It’s simple really!  As pioneers of the stand-alone
-          Brow Bar, Benito offers a full range of facial threading services from beautifully precise speedy brow shaping to lashes in many sizes, shapes, and flutteryness. Our experienced Brow and Lash Technicians are waiting. Everyone is welcome,simply Walk-In anytime
-          or book a service and experience
-        </p>
-        <p className="m-6 is-size-6-touch">
-          Coming soon.
         </p>
 
         <h2 className="mt-6 title">
