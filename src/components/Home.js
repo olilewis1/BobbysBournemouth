@@ -102,7 +102,10 @@ const Home = () => {
                 </div>
                 <div className="modal-card-body has-text-centered" >
                   <p className="mt-4 " id="modal-homepage">
-                    Bobby’s Beauty Hall, DROOL, South Coast Makers Shop, DRGNFLY Sushi Bar, Bobby’s Ice Cream Parlour and GIANT Gallery are now open from 10:00AM - 6:00PM Mon-Sat and 10:30AM - 4:30PM Sun.
+                    Bobby’s Beauty Hall, South Coast Makers Shop, DRGNFLY Sushi Bar, Bobby’s Ice Cream Parlour and GIANT Gallery are now open from 10:00AM - 6:00PM Mon-Sat and 10:30AM - 4:30PM Sun.
+                  </p>
+                  <p className="mt-4 " id="modal-homepage">
+                    DROOL opening hours: Thursday, Friday, Saturday, Sunday 10:00AM-4:00PM.
                   </p>
                   <p className="mt-4 " id="modal-homepage">
                     Dogs are welcome in all areas of the store, except the art gallery.
