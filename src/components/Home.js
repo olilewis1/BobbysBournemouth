@@ -108,7 +108,7 @@ const Home = () => {
                     DROOL opening hours: Thursday, Friday, Saturday, Sunday 10:00AM-4:00PM.
                   </p>
                   <p className="mt-4 " id="modal-homepage">
-                    GIANT Gallery opening hours: Monday-Saturday 11:00AM-6:00PM, Sunday 11:00AM-4:00PM.
+                    GIANT Gallery opening hours: Monday-Saturday 11:00AM-6:00PM, Sunday 11:00AM-4:00PM. Closed between 1st-14th November to install its next exhibition. 
                   </p>
                   <p className="mt-4 " id="modal-homepage">
                     Dogs are welcome in all areas of the store, except the art gallery.
