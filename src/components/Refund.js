@@ -11,6 +11,7 @@ const Refund = () => {
 
           TERMS & CONDITIONS
         </h2>
+        <p className="m-6 is-size-6-touch">If you have any concerns about a Beauty Hall purchase, please visit us in store along with the product, and one of our dedicated team will do their best to assist you. </p>
         <h2 className="mt-6 title">
           Exchanges and Refunds
         </h2>
