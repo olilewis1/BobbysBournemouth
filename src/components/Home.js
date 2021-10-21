@@ -102,7 +102,10 @@ const Home = () => {
                 </div>
                 <div className="modal-card-body has-text-centered" >
                   <p className="mt-4 " id="modal-homepage">
-                    Bobby’s Beauty Hall, South Coast Makers Shop, DRGNFLY Sushi Bar and Bobby’s Ice Cream Parlour are open from 10:00AM - 6:00PM Mon-Sat and 10:30AM - 4:30PM Sun.
+                    Bobby’s Beauty Hall, South Coast Makers Shop and DRGNFLY Sushi Bar  are open from 10:00AM - 6:00PM Mon-Sat and 10:30AM - 4:30PM Sun.
+                  </p>
+                  <p className="mt-4 " id="modal-homepage">
+                    Bobby’s Ice Cream Parlour is open 7:30AM - 4:00PM Mon-Fri and Sat-Sun 10:00AM - 4:00PM.
                   </p>
                   <p className="mt-4 " id="modal-homepage">
                     DROOL opening hours: Thursday, Friday, Saturday, Sunday 10:00AM-4:00PM.
