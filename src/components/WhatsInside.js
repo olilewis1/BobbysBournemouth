@@ -50,7 +50,7 @@ const WhatsInside = () => {
           Art Gallery
         </h2>
         <p className="m-6 is-size-6-touch">
-          The UK’s largest artist-run contemporary gallery space outside of London has landed on our second floor, BIG MEDICINE, currently running; Metabolic Market - A Dimensionally Diabolical Department, in its project space. Including works by seminal international artists, among them Turner prize winner Jeremy Deller, Gavin Turk and new site-specific pieces by Nicky Carvel, Jim Lambie, and Gary Card. 
+          The UK’s largest artist-run contemporary gallery space outside of London has landed on our second floor, BIG MEDICINE, currently running; Metabolic Market - A Dimensionally Diabolical Department, in its project space. Including works by seminal international artists, among them Turner prize winner Jeremy Deller, Gavin Turk and new site-specific pieces by Nicky Carvel, Jim Lambie, and Gary Card. Closed between 1st-14th November to install its next exhibition.
 
         </p>
         <h2 className="mt-6 title">

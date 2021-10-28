@@ -108,7 +108,7 @@ const Home = () => {
                     Bobby’s Ice Cream Parlour is open 7:30AM - 4:00PM Mon-Fri and Sat-Sun 10:00AM - 4:00PM.
                   </p>
                   <p className="mt-4 " id="modal-homepage">
-                    DROOL opening hours: Thursday, Friday, Saturday, Sunday 10:00AM-4:00PM.
+                    DROOL opening hours: Saturday and Sunday 10:00AM-4:00PM.
                   </p>
                   <p className="mt-4 " id="modal-homepage">
                     GIANT Gallery opening hours: Monday-Saturday 11:00AM-6:00PM, Sunday 11:00AM-4:00PM. Closed between 1st-14th November to install its next exhibition. 
