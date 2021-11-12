@@ -1,15 +1,21 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import { ImageOverlay } from 'react-image-overlay-effect'
 import Fade from 'react-reveal/Fade'
 import Zoom from 'react-reveal/Zoom'
 // import bobbysPicOld from '../assets/Screenshot 2021-06-03 at 19.24.38.png'
-import stuartSemple from '../assets/close up front v8-min2-new.jpg'
+// import stuartSemple from '../assets/close up front v8-min2-new.jpg'
 import bobbysBackground from '../assets/image.jpg'
 import facebook from '../assets/b763699fd1fa3bfb374442593ae642e1.png'
 import instagram from '../assets/instagram_icon_138461.png'
-import bobbysSquare from '../assets/2021_BOBBYS_INTERIOR_JB_-63_websize.jpg'
-import bobbysFlowers from '../assets/2021_BOBBYS_INTERIOR_JB_-41_websize.jpg'
+import bobbysSquare from '../assets/2021_BOBBYS_DEPARTMENT_JB_-262.jpg'
+import bobbysFlowers from '../assets/2021_BOBBIES_PRESS_EVENT_JB_-288.jpg'
+import pictureOne from '../assets/2021_BOBBIES_PRESS_EVENT_JB_-464.jpg'
+import pictureTwo from '../assets/2021_BOBBYS_DEPARTMENT_JB_-157.jpg'
+import pictureThree from '../assets/2021_BOBBYS_DEPARTMENT_JB_-49 (1).jpg'
+import pictureFour from '../assets/2021_BOBBYS_DEPARTMENT_JB_-221.jpg'
+import pictureFive from '../assets/2021_BOBBYS_DEPARTMENT_JB_-300 (1).jpg'
+import pictureSix from '../assets/2021_BOBBYS_DEPARTMENT_JB_-367.jpg'
 // import { Carousel } from 'react-responsive-carousel'
 const Home = () => {
   // const [intervalz, setIntervalz] = useState(3000) //initial state here represents the interval for first image.
@@ -17,28 +23,7 @@ const Home = () => {
   // const onChange = (index, item) => {
   //   setIntervalz(item.props['data-interval'])
   // }
-  const [addClass, setAddClass] = useState('')
-  const handleClick = (event) => {
-    console.log(event)
-    if (addClass === 'is-active') {
-      setAddClass('')
-    }
-    if (addClass === '') {
-      setAddClass('is-active')
-    }
 
-  }
-
-  useEffect(() => {
-    const isItVisited = localStorage.getItem('visited')
-    if (isItVisited === null) {
-      setAddClass('is-active')
-    }
-    const toVisit = 'yes'
-    localStorage.setItem('visited', JSON.stringify(toVisit))
-    console.log(toVisit)
-
-  }, [])
 
   return (
     // 
@@ -46,42 +31,43 @@ const Home = () => {
     // 
     <>
       <div className="homepage is-size-6-touch">
-        <section className="hero has-background-grey-light">
-          {/* <Carousel
+
+        {/* <Carousel
         onChange={onChange}
         autoPlay
         interval={intervalz}
         infiniteLoop={false}> */}
-          {/* <div data-interval={3000}>
+        {/* <div data-interval={3000}>
           <img className="image-height" src={bobbysPicOld} alt="Coming Soon" />
           <p className="legend">Legend 1</p>
         </div> */}
 
 
-          <div data-interval={3000} >
-            {/* div style={{ display: "inline-block" } */}
-            < ImageOverlay
-              src={stuartSemple}
-              description={
-                <div className="overlay-main-hero "> <div className="" id="">
-                  <div className="">
-                    <p className="hero-p  is-size-5-mobile is-hidden-mobile "> Bringing Bobby’s back to Bournemouth.</p>
-                    <button onClick={handleClick}
-                      position={'bottomRight'} id="hero-button" className=" is-size-7-touch has-text-centered button  * ">Opening Dates & Times
-                    </button>
-                  </div>
-                  <div className=""> </div>
-                </div>
-                </div>} />
-            {/* <img className="image-height" src={stuartSemple} alt="Coming Soon" /> */}
-
-            {/* <div className="is-overlay is-flex is-justify-content-center"> <p className=" is-flex is-align-self-center"> ±HIiiiiiiiiii</p> </div> */}
+        <section className="hero">
+          <div className=" is-flex image-height">
+            <figure className="image">
+              <img src={pictureThree} alt="image-1" />
+            </figure>
+            <figure className="image ">
+              <img src={pictureFour} alt="image-2" />
+            </figure>
+            <figure className="image ">
+              <img src={pictureSix} alt="image-3" />
+            </figure>
           </div>
-          <div className="columns is-vcentered has-text-centered	is-hidden-tablet	 ">
-            {/* <div className="column"></div> */}<div className=""> </div>
+        </section>
+        <section className="hero">
+          <div className=" is-flex image-height">
+            <figure className="image">
+              <img src={pictureOne} alt="image-1" />
+            </figure>
+            <figure className="image ">
+              <img src={pictureFive} alt="image-2" />
+            </figure>
+            <figure className="image ">
+              <img src={pictureTwo} alt="image-3" />
+            </figure>
           </div>
-          {/* </Carousel> */}
-
         </section>
 
         <div className="our-story">
@@ -91,51 +77,11 @@ const Home = () => {
             </p> */}
 
           </section>
-          <section className="handle-modal">
-            <div className={`modal ${addClass}`}>
-              <div className="modal-background"></div>
-              <div className="modal-content ">
-                <div className="modal-card-head">
-                  <h1 className="modal-card-title has-text-centered is-size-6-touch">
-
-                  </h1>
-                </div>
-                <div className="modal-card-body has-text-centered" >
-                  <p className="mt-4 " id="modal-homepage">
-                    Bobby’s Beauty Hall, South Coast Makers Shop and DRGNFLY Sushi Bar  are open from 10:00AM - 6:00PM Mon-Sat and 10:30AM - 4:30PM Sun.
-                  </p>
-                  <p className="mt-4 " id="modal-homepage">
-                    Bobby’s Ice Cream Parlour is open 7:30AM - 4:00PM Mon-Fri and Sat-Sun 10:00AM - 4:00PM.
-                  </p>
-                  <p className="mt-4 " id="modal-homepage">
-                    DROOL opening hours: Saturday and Sunday 10:00AM-4:00PM.
-                  </p>
-                  <p className="mt-4 " id="modal-homepage">
-                    GIANT Gallery opening hours: Monday-Saturday 11:00AM-6:00PM, Sunday 11:00AM-4:00PM. Closed between 1st-14th November to install its next exhibition. 
-                  </p>
-                  <p className="mt-4 " id="modal-homepage">
-                    Dogs are welcome in all areas of the store, except the art gallery.
-                  </p>
-
-
-                  <p className="mt-4 " id="modal-homepage">
-                    We can’t wait to see you all at Bobby’s very soon.
-
-                  </p>
-
-
-                </div>
-                {/* <div className="modal-card-foot modal-card-title">Statement from Ashley Nicholson – Director of Verve Properties </div> */}
-              </div>
-              <button onClick={handleClick} className="modal-close is-large" aria-label="close"></button>
-            </div>
-
-          </section>
         </div>
         <section>
           <div className="is-flex-tablet has-background-grey-light pt-6 pb-6 maindiv-flex">
             <p className="	has-text-weight-bold is-size-5-mobile right-div">
-              This is the future of bricks and mortar retail, and the Bobby’s Beauty Hall, DROOL, Sushi Bar, Ice Cream Parlour, South Coast Makers Shop and Art gallery will be one of the first elements to open in September 2021.
+              This is the future of bricks and mortar retail, and the Bobby’s Beauty Hall, DROOL, DRGNFLY Sushi & Champagne, Ice Cream Parlour, South Coast Makers Shop and Art gallery were the first elements to open in September 2021.
             </p>
             <p className="	is-size-5-mobile left-div">
               The vision is to create a new experiential shopping destination led by beauty, health, food and beverage, and wellbeing focused businesses.
