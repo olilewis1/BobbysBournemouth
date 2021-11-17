@@ -50,8 +50,8 @@ const Navbar = () => {
         </div>
         <div id="navbarBasicExample" className={`navbar-menu ${addClass}`}>
           <div className="navbar-end ">
-            <Link to="/" className=" navbar-item">
-              <p className="has-text-black">
+            <Link to="/" className=" navbar-item ">
+              <p className="has-text-black button-nav">
                 Home
               </p>
 
@@ -62,8 +62,8 @@ const Navbar = () => {
               </p>
             </a>
 
-            <Link to="/whatsinside" className=" navbar-item">
-              <p className="has-text-black">
+            <Link to="/whatsinside" className=" navbar-item ">
+              <p className="has-text-black button-nav">
                 What’s Inside
               </p>
             </Link>
@@ -73,6 +73,13 @@ const Navbar = () => {
               </p>
             </a>
             <a onClick={handleClick} className=" navbar-item button-nav navbar-item has-text-black"> Opening Times
+            </a>
+            <a className=" navbar-item is-hidden-touch">
+              <p className="has-text-black">
+                -
+              </p>
+            </a>
+            <a href="https://www.whatsonatbobbys.com" className=" navbar-item button-nav navbar-item has-text-black"> Events & Activities
             </a>
             <div className="navbar-item">
               <section className="handle-modal">
