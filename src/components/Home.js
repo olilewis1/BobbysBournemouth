@@ -39,7 +39,7 @@ const Home = () => {
   useEffect(() => {
     setTimeout(function () {
       setAddClassModal('is-active')
-    }, 500)
+    }, 1000)
   }, [])
 
 
