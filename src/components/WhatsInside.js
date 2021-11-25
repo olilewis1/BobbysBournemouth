@@ -50,8 +50,9 @@ const WhatsInside = () => {
           Art Gallery
         </h2>
         <p className="m-6 is-size-6-touch">
-          The UK’s largest artist-run contemporary gallery space outside of London has landed on our second floor, BIG MEDICINE, currently running; Metabolic Market - A Dimensionally Diabolical Department, in its project space. Including works by seminal international artists, among them Turner prize winner Jeremy Deller, Gavin Turk and new site-specific pieces by Nicky Carvel, Jim Lambie, and Gary Card. Closed between 1st-14th November to install its next exhibition.
-
+          GIANT Is a brand new independently funded arts center right in the heart of Bournemouth. At 15,000sq foot it is the UK’s largest artist-run gallery space outside London.
+          The aim of GIANT is to become a truly vibrant hub on the South Coast for the development of contemporary art. A place where audiences are invited to engage critically with international artists and their works via participation and discussion.
+          Our vision is to position art as central to society through accessible and challenging programming across artist projects, exhibitions, publications, education programs, and events.
         </p>
         <h2 className="mt-6 title">
           Bobby’s Ice Cream Parlour
@@ -108,14 +109,6 @@ const WhatsInside = () => {
         </p>
 
         <h2 className="mt-6 title">
-          True Gents Barbers
-
-        </h2>
-        <p className="m-6 is-size-6-touch">
-          True Gents is an Old School BarberShop that specialises in cut throat razors, traditional haircuts and hot towel shaves. The TGB team Fernando are here to best suit your busy agenda,  giving you the personal attention you deserve.
-        </p>
-
-        <h2 className="mt-6 title">
           The Venue Beauty Salon
         </h2>
         <p className="m-6 is-size-6-touch">
@@ -125,7 +118,7 @@ const WhatsInside = () => {
           Your health and wellbeing is our priority, but comfort and convenience is important too. With online booking services, the latest aesthetic and non-surgical technology for face and body, iPads and mobile phone charging points, life just got a little easier.
         </p>
         <p className="m-6 is-size-6-touch">
-          Coming soon.
+          Coming 2nd December.
         </p>
 
 
