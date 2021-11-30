@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import { ImageOverlay } from 'react-image-overlay-effect'
 import Fade from 'react-reveal/Fade'
@@ -16,7 +16,7 @@ import pictureThree from '../assets/2021_BOBBYS_DEPARTMENT_JB_-49 (1).jpg'
 import pictureFour from '../assets/2021_BOBBYS_DEPARTMENT_JB_-221.jpg'
 import pictureFive from '../assets/2021_BOBBYS_DEPARTMENT_JB_-300 (1).jpg'
 import pictureSix from '../assets/2021_BOBBYS_DEPARTMENT_JB_-367.jpg'
-import blackFriday from '../assets/SLIDE 7 (1).png'
+// import blackFriday from '../assets/SLIDE 7 (1).png'
 // import { Carousel } from 'react-responsive-carousel'
 const Home = () => {
   // const [intervalz, setIntervalz] = useState(3000) //initial state here represents the interval for first image.
@@ -24,23 +24,18 @@ const Home = () => {
   // const onChange = (index, item) => {
   //   setIntervalz(item.props['data-interval'])
   // }
-  const [addClassModal, setAddClassModal] = useState('')
-  const handleClick = (event) => {
-    console.log(event)
-    if (addClassModal === 'is-active') {
-      setAddClassModal('')
-    }
-    if (addClassModal === '') {
-      setAddClassModal('is-active')
-    }
+  // const [addClassModal, setAddClassModal] = useState('')
+  // const handleClick = (event) => {
+  //   console.log(event)
+  //   if (addClassModal === 'is-active') {
+  //     setAddClassModal('')
+  //   }
+  //   if (addClassModal === '') {
+  //     setAddClassModal('is-active')
+  //   }
 
-  }
+  // }
 
-  useEffect(() => {
-    setTimeout(function () {
-      setAddClassModal('is-active')
-    }, 1000)
-  }, [])
 
 
   return (
@@ -49,25 +44,7 @@ const Home = () => {
     //
     <>
       <div className="homepage is-size-6-touch">
-        <section className="handle-modal">
-          <div className={`modal ${addClassModal}`}>
-            <div className="modal-background"></div>
-            <div className="modal-content ">
-              <div className="modal-card-head">
-                <h1 className="modal-card-title has-text-centered is-size-6-touch">
-
-                </h1>
-              </div>
-              <div className="modal-card-body has-text-centered" >
-                <img src={blackFriday} alt="black friday deals" />
-
-
-              </div>
-              {/* <div className="modal-card-foot modal-card-title">Statement from Ashley Nicholson – Director of Verve Properties </div> */}
-            </div>
-            <button onClick={handleClick} className="modal-close is-large" aria-label="close"></button>
-          </div>
-        </section>
+        
         {/* <Carousel
         onChange={onChange}
         autoPlay
