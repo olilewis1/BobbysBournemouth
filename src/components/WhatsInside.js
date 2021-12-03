@@ -64,13 +64,7 @@ const WhatsInside = () => {
         <p className="m-6 is-size-6-touch">
           Contact us for allergen information.
         </p>
-        <h2 className="mt-6 title">
-          Drool
-        </h2>
-        <p className="m-6 is-size-6-touch">
-          The summer pop-up that has got both tongues and tails wagging: DROOL the first food hall devoted entirely to dogs. Featuring a cake shop, a “Lick ‘n’ Mix station”, a doggy tuck shop, a dog ball recycling centre (for the eco conscious canine in your life), Fish & Chip Flavour Dog Treats, Seaside Theme Biscuits, Dog Doughnuts and even Liver Cakes. With the abundance of new dog owners over the pandemic, this is the must visit destination this summer for you and your four legged friend.
 
-        </p>
 
         <h2 className="mt-6 title">
           DRGNFLY
@@ -116,9 +110,6 @@ const WhatsInside = () => {
         </p>
         <p className="m-6 is-size-6-touch">
           Your health and wellbeing is our priority, but comfort and convenience is important too. With online booking services, the latest aesthetic and non-surgical technology for face and body, iPads and mobile phone charging points, life just got a little easier.
-        </p>
-        <p className="m-6 is-size-6-touch">
-          Coming 2nd December.
         </p>
 
 
