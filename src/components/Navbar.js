@@ -93,25 +93,34 @@ const Navbar = () => {
                     </div>
                     <div className="modal-card-body has-text-centered" >
                       <p className="mt-4 " id="modal-homepage">
-                        Bobby’s Beauty Hall, South Coast Makers Shop and DRGNFLY Sushi Bar  are open from 10:00AM - 6:00PM Mon-Sat and 10:30AM - 4:30PM Sun.
+                      Thursday 23rd Dec 9.00am-8.00pm                      </p>
+                      <p className="mt-4 " id="modal-homepage">
+                      Friday 24th Dec 9.00am-4.00pm                      </p>
+                      <p className="mt-4 " id="modal-homepage">
+                      Christmas Day Saturday 25th Dec & Boxing Day Sunday 26th CLOSED
                       </p>
                       <p className="mt-4 " id="modal-homepage">
-                        Bobby’s Ice Cream Parlour is open 7:30AM - 4:00PM Mon-Fri and Sat-Sun 10:00AM - 4:00PM.
+                        Monday 27th Dec - Thursday 30th Dec 10:00AM-6:00PM
                       </p>
                       <p className="mt-4 " id="modal-homepage">
-                        DROOL opening hours: Saturday and Sunday 10:00AM-4:00PM.
+                      New Year’s Eve Friday 31st Dec 10.00am-4.00pm
                       </p>
                       <p className="mt-4 " id="modal-homepage">
-                        GIANT Gallery opening hours: Monday-Saturday 11:00AM-6:00PM, Sunday 11:00AM-4:00PM. Closed between 1st-14th November to install its next exhibition.
+                      New Year’s Day Saturday 1st Jan CLOSED
                       </p>
                       <p className="mt-4 " id="modal-homepage">
-                        Dogs are welcome in all areas of the store, except the art gallery.
+                      Sunday 2nd Jan 10.30am-4.30pm
+                      </p>
+                      <p className="mt-4 " id="modal-homepage">
+                      Monday 3rd Jan (bank holiday) 10.00am-4.00pm
+                      </p>
+                      <p className="mt-4 " id="modal-homepage">
+                      Tuesday 4th onwards - BAU
                       </p>
 
 
                       <p className="mt-4 " id="modal-homepage">
                         We can’t wait to see you all at Bobby’s very soon.
-
                       </p>
 
 
@@ -146,3 +155,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+
