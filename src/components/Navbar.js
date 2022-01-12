@@ -93,14 +93,14 @@ const Navbar = () => {
                     </div>
                     <div className="modal-card-body has-text-centered" >
                       <p className="mt-4 " id="modal-homepage">
-                        Bobby’s Beauty Hall, South Coast Makers Shop and DRGNFLY Sushi Bar are open from 10:00AM - 6:00PM Mon-Sat and 10:30AM - 4:30PM Sun.
+                        Bobby’s Beauty Hall, South Coast Makers Shop and DRGNFLY Sushi Bar are open from 10:00AM - 5:00PM Mon-Fri, 10:00AM - 6:00PM Sat and 10:30AM - 4:30PM Sun.
                       </p>
                       <p className="mt-4 " id="modal-homepage">
-                        Bobby’s Ice Cream Parlour: 7:30AM - 4:00PM Mon-Fri and Sat-Sun 10:00AM - 4:00PM.
+                        Bobby’s Ice Cream Parlour: 7:30AM - 3:00PM Mon-Fri and 10:00AM - 4:00PM Sat-Sun.
                       </p>
 
                       <p className="mt-4 " id="modal-homepage">
-                        GIANT Gallery: Mon-Sat 11:00AM-6:00PM, Sun 11:00AM-4:00PM. 
+                        GIANT Gallery: Mon-Fri 11:00AM - 5:00PM, 10:00AM - 6:00PM Sat and 11:00AM - 4:00PM Sun. 
                       </p>
                       <p className="mt-4 " id="modal-homepage">
                         Dogs are welcome in all areas of the store, except the art gallery.
