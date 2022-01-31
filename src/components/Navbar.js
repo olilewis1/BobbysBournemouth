@@ -71,7 +71,7 @@ const Navbar = () => {
                 -
               </p>
             </a>
-            <a href="https://www.whatsonatbobbys.com" className=" navbar-item button-nav navbar-item has-text-black"> What’s on
+            <a href="https://www.whatsonatbobbys.com" className=" navbar-item button-nav navbar-item has-text-black"> What’s On
             </a>
             <a className=" navbar-item is-hidden-touch">
               <p className="has-text-black">
