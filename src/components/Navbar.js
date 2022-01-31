@@ -40,7 +40,9 @@ const Navbar = () => {
       <nav className="navbar navvy" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <div className="navbar-item ">
-            <img src={bobbysButton} alt="" width="140" height="28" className="navvvy-item pt-2" />
+            <Link to="/" className="  ">
+              <img src={bobbysButton} alt="" width="140" height="28" className="navvvy-item pt-2" />
+            </Link>
           </div>
           <div role="button" className={`navbar-burger mt-5 ${addClass}`} aria-label="menu" aria-expanded="false" onClick={handleToggle}>
             <span aria-hidden="true"></span>
@@ -50,17 +52,7 @@ const Navbar = () => {
         </div>
         <div id="navbarBasicExample" className={`navbar-menu ${addClass}`}>
           <div className="navbar-end ">
-            <Link to="/" className=" navbar-item ">
-              <p className="has-text-black button-nav">
-                Home
-              </p>
 
-            </Link>
-            <a className=" navbar-item is-hidden-touch">
-              <p className="has-text-black ">
-                -
-              </p>
-            </a>
 
             <Link to="/whatsinside" className=" navbar-item ">
               <p className="has-text-black button-nav">
@@ -79,7 +71,17 @@ const Navbar = () => {
                 -
               </p>
             </a>
-            <a href="https://www.whatsonatbobbys.com" className=" navbar-item button-nav navbar-item has-text-black"> Events & Activities
+            <a href="https://www.whatsonatbobbys.com" className=" navbar-item button-nav navbar-item has-text-black"> What’s on
+            </a>
+            <a className=" navbar-item is-hidden-touch">
+              <p className="has-text-black">
+                -
+              </p>
+            </a>
+            <a href="https://www.whatsonatbobbys.com/the-beauty-hall" className=" navbar-item button-nav navbar-item has-text-black"> Beauty Hall
+            </a>
+            <a className=" navbar-item is-hidden-touch">
+
             </a>
             <div className="navbar-item">
               <section className="handle-modal">
@@ -100,7 +102,7 @@ const Navbar = () => {
                       </p>
 
                       <p className="mt-4 " id="modal-homepage">
-                        GIANT Gallery: 11:00AM - 5:00PM Mon-Fri, 11:00AM - 6:00PM Sat and 11:00AM - 4:00PM Sun. 
+                        GIANT Gallery: 11:00AM - 5:00PM Mon-Fri, 11:00AM - 6:00PM Sat and 11:00AM - 4:00PM Sun.
                       </p>
                       <p className="mt-4 " id="modal-homepage">
                         Dogs are welcome in all areas of the store, except the art gallery.
