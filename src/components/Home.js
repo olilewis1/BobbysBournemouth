@@ -94,7 +94,7 @@ const Home = () => {
         <section>
           <div className="is-flex-tablet has-background-grey-light pt-6 pb-6 maindiv-flex">
             <p className="	has-text-weight-bold is-size-5-mobile right-div">
-              This is the future of bricks and mortar retail, and the Bobby’s Beauty Hall, DROOL, DRGNFLY Sushi & Champagne, Ice Cream Parlour, South Coast Makers Shop and Art gallery were the first elements to open in September 2021.
+              This is the future of bricks and mortar retail, and the Bobby’s Beauty Hall, DRGNFLY Sushi & Champagne, Ice Cream Parlour, South Coast Makers Shop, Art gallery and The Venue Beauty Salon were the first elements to open in 2021.
             </p>
             <p className="	is-size-5-mobile left-div">
               The vision is to create a new experiential shopping destination led by beauty, health, food and beverage, and wellbeing focused businesses.

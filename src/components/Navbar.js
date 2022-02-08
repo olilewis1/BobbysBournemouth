@@ -105,6 +105,9 @@ const Navbar = () => {
                         GIANT Gallery: 11:00AM - 5:00PM Mon-Fri, 11:00AM - 6:00PM Sat and 11:00AM - 4:00PM Sun.
                       </p>
                       <p className="mt-4 " id="modal-homepage">
+                        The Venue Beauty Salon: 10:00AM - 5:00PM Tues-Sat.
+                      </p>
+                      <p className="mt-4 " id="modal-homepage">
                         Dogs are welcome in all areas of the store, except the art gallery.
                       </p>
 
