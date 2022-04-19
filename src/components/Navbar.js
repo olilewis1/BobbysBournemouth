@@ -95,7 +95,9 @@ const Navbar = () => {
                     </div>
                     <div className="modal-card-body has-text-centered" >
                       <p className="mt-4 " id="modal-homepage">
-                      The Beauty Hall, DRGNFLY Sushi, The South Coast Makers Shop & InTime Watch Repair: 10:00AM - 5:30PM Mon-Thur, 10:00AM - 6:00PM Fri-Sat and 10:30AM - 4:30PM Sun.
+                        Ground Floor                      </p>
+                      <p className="mt-4 " id="modal-homepage">
+                        The Beauty Hall, DRGNFLY Sushi, The South Coast Makers Shop & InTime Watch Repair: 10:00AM - 5:30PM Mon-Thur, 10:00AM - 6:00PM Fri-Sat and 10:30AM - 4:30PM Sun.
                       </p>
                       <p className="mt-4 " id="modal-homepage">
                         Bobby’s Ice Cream Parlour: 7:30AM - 4:00PM Mon-Fri and 10:00AM - 4:00PM Sat-Sun.
@@ -104,13 +106,14 @@ const Navbar = () => {
                         The Venue Beauty Salon: 10:00AM - 5:30PM Tue-Thur and 10:00AM - 6:00PM Fri-Sat.
                       </p>
                       <p className="mt-4 " id="modal-homepage">
-                        GIANT Gallery: 11:00AM - 5:30PM Mon-Thur, 11:00AM - 6:00PM Fri-Sat and 11:00AM - 4:00PM Sun.
+                        First Floor                      </p>
+                      <p className="mt-4 " id="modal-homepage">
+                        Flaming Nora’s: 10:00AM - 5:30PM Mon-Thur, 10:00AM - 6:00PM Fri-Sat and 10:30AM - 4:30PM Sun.
                       </p>
                       <p className="mt-4 " id="modal-homepage">
-                      Flaming Nora’s & The South Coast Makers Market: 10:00AM - 5:30PM Tues-Sat and 10:30AM - 3:30PM Sun.
-                      </p>
+                        Second Floor                      </p>
                       <p className="mt-4 " id="modal-homepage">
-                        Dogs are welcome in all areas of the store, except the art gallery.
+                        GIANT Art Gallery: 11:00AM - 5:30PM Mon-Thur, 11:00AM - 6:00PM Fri-Sat and 11:00AM - 4:00PM Sun.
                       </p>
 
 
