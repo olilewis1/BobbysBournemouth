@@ -97,7 +97,7 @@ const Navbar = () => {
                       <p className="mt-4 " id="modal-homepage">
                         Ground Floor                      </p>
                       <p className="mt-4 " id="modal-homepage">
-                        The Beauty Hall, DRGNFLY Sushi, The South Coast Makers Shop & InTime Watch Repair: 10:00AM - 5:30PM Mon-Thur, 10:00AM - 6:00PM Fri-Sat and 10:30AM - 4:30PM Sun.
+                        The Beauty Hall, DRGNFLY Sushi, South Coast Makers Shop & InTime Watch Repair: 10:00AM - 5:30PM Mon-Thur, 10:00AM - 6:00PM Fri-Sat and 10:30AM - 4:30PM Sun.
                       </p>
                       <p className="mt-4 " id="modal-homepage">
                         Bobby’s Ice Cream Parlour: 7:30AM - 4:00PM Mon-Fri and 10:00AM - 4:00PM Sat-Sun.
