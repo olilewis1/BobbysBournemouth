@@ -14,7 +14,7 @@ const Navbar = () => {
       setAddClass('')
     }
   }
-  const [addClassModal, setAddClassModal] = useState('')
+  const [addClassModal, setAddClassModal] = useState('is-active')
   const handleClick = (event) => {
     console.log(event)
     if (addClassModal === 'is-active') {
@@ -95,30 +95,22 @@ const Navbar = () => {
                     </div>
                     <div className="modal-card-body has-text-centered" >
                       <p className="mt-4 " id="modal-homepage">
-                        Ground Floor                      </p>
+                        Opening Times                     </p>
                       <p className="mt-4 " id="modal-homepage">
-                        The Beauty Hall, DRGNFLY Sushi, South Coast Makers Shop & InTime Watch Repair: 10:00AM - 5:30PM Mon-Thur, 10:00AM - 6:00PM Fri-Sat and 10:30AM - 4:30PM Sun.
+                        Monday-Saturday: 10:00AM-6:00PM
                       </p>
                       <p className="mt-4 " id="modal-homepage">
-                        Bobby’s Ice Cream Parlour: 7:30AM - 4:00PM Mon-Fri and 10:00AM - 4:00PM Sat-Sun.
+                        Sunday: 10:30AM-4:30PM
+                      </p>
+                      <p className="mt-4 smaller"  id="">
+                        *Please note independent concession opening times may vary. Check their independent sites for more details.
                       </p>
                       <p className="mt-4 " id="modal-homepage">
-                        The Venue Beauty Salon: 10:00AM - 5:30PM Tue-Thur and 10:00AM - 6:00PM Fri-Sat.
+                        Re-opening
                       </p>
                       <p className="mt-4 " id="modal-homepage">
-                        First Floor                      </p>
-                      <p className="mt-4 " id="modal-homepage">
-                        Flaming Nora’s: 10:00AM - 5:30PM Mon-Thur, 10:00AM - 6:00PM Fri-Sat and 10:30AM - 4:30PM Sun.
+                        From Saturday 18th June, The Venue Beauty Salon will be partially re-opening and offering an array of beauty treatments and services. Follow their instagram or check their website for their latest offerings.
                       </p>
-                      <p className="mt-4 " id="modal-homepage">
-                        Second Floor                      </p>
-                      <p className="mt-4 " id="modal-homepage">
-                        GIANT Art Gallery: 11:00AM - 5:30PM Mon-Thur, 11:00AM - 6:00PM Fri-Sat and 11:00AM - 4:00PM Sun.
-                      </p>
-
-
-
-
                     </div>
                     {/* <div className="modal-card-foot modal-card-title">Statement from Ashley Nicholson – Director of Verve Properties </div> */}
                   </div>
