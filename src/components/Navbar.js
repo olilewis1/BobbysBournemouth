@@ -97,7 +97,7 @@ const Navbar = () => {
                       <p className="mt-4 " id="modal-homepage">
                         Opening Times                     </p>
                       <p className="mt-4 " id="modal-homepage">
-                        Monday-Saturday: 10:00AM-6:00PM
+                        Monday-Saturday: 10:00AM-5:30PM
                       </p>
                       <p className="mt-4 " id="modal-homepage">
                         Sunday: 10:30AM-4:30PM
