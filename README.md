@@ -20,7 +20,7 @@ This document serves as the README for the Bobbys of Bournemouth website project
 Homepage: 
 ![Homepage](./src/assets/screenshot-home.png)
 
-React slick: 
+React Reveal Use: 
 ![Info](./src/assets/screenshot-info.png)
 
 About page: 
