@@ -1,20 +1,59 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) GA London React Template
+# Bobbys of Bournemouth Website README
 
-## Using NPM
+## Contents
+[Overview](#overview)<br/>
+[Deployed Project](#deployed-project)<br/>
+[Code Installation](#code-installation)<br/>
+[Technologies Used](#technologies-used)<br/>
+[Brief](#brief)<br/>
+[Process](#process)<br/>
+[Bugs](#bugs)<br/>
+[Challenges](#challenges)<br/>
+[Wins](#wins)<br/>
+[Future Improvements](#future-improvements)<br/>
+[Key Learning](#key-learning)<br/>
 
-`yarn start` or `yarn dev`  to run the development server
+## Overview
+This document serves as the README for the Bobbys of Bournemouth website project, detailing its development, features, and deployment.
 
-`yarn build` to create a build directory
+## Deployed Project
+The website is deployed using Netlify. You can view the live site [here]([https://example.com](https://epic-bartik-51a389.netlify.app/)).
 
-## Using Yarn
+## Code Installation
+To run the project locally, follow these steps:
+1. Clone this repository: `git clone https://github.com/your-username/bobbys-of-bournemouth.git`
+2. Navigate to the project directory: `cd bobbys-of-bournemouth`
+3. Install dependencies: `npm install`
+4. Run the development server: `npm start`
+5. Open your browser and visit: `http://localhost:3000`
 
-`yarn start` or `yarn dev`  to run the development server
+## Technologies Used
+- React
+- React Router
+- Bulma
+- React Image Overlay
+- React Responsive Carousel
+- React Reveal
+- React Scroll Parallax
+- Sass
 
-`yarn build` to create a build directory
+## Brief
+The project involves the development of a website for Bobbys of Bournemouth, aiming to showcase their story, offerings, and upcoming events.
 
-### ⚠️
+## Process
+The development process involved...
 
-To prevent the `failed-to-compile` issue for linter errors like `no-unsed-vars`, rename the `.env.example` to `.env` and restart your development server. Note this will only change the behaviour of certain linter errors to now be warnings, and is added just to allow your code to compile in development. These errors should still be fixed and other errors will still result in the code being unable to compile
+## Bugs
+List of encountered bugs and their resolutions...
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Challenges
+Challenges faced during the development process...
 
+## Wins
+Achievements and successful outcomes...
+
+## Future Improvements
+Plans for future enhancements...
+
+## Key Learning
+Key takeaways and lessons learned from the project...
