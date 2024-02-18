@@ -16,6 +16,9 @@
 ## Overview
 This document serves as the README for the Bobbys of Bournemouth website project, detailing its development, features, and deployment.
 
+## Demo 
+![Homepage](./src/assets/screenshot-home.png)
+
 ## Deployed Project
 The website is deployed using Netlify. You can view the live site [here]([https://example.com](https://epic-bartik-51a389.netlify.app/)).
 
