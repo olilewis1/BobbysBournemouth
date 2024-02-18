@@ -28,7 +28,8 @@ About page:
 
 
 ## Deployed Project
-The website is deployed using Netlify. You can view the live site [here]([https://example.com](https://epic-bartik-51a389.netlify.app/)).
+The website is deployed using Netlify. You can view the live site [here](https://epic-bartik-51a389.netlify.app/).
+
 
 ## Code Installation
 To run the project locally, follow these steps:
